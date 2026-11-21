@@ -1,0 +1,1187 @@
+==============================================================
+SCARA_Robot rename + material verify/set + properties (live run, one file at a time)
+Started: 2026-11-20 23:15:28
+Plan: 61 file renames, 61 config renames -> 'Default', 3 materials to assign, 56 materials verify-only.
+AUTO: saved open document before run: C:\Users\User\Desktop\SR\Base.SLDPRT
+AUTO: saved open document before run: C:\Users\User\Desktop\SR\Stepper_NEMA_17_20mm_shaft.SLDPRT
+AUTO: saved open document before run: C:\Users\User\Desktop\SR\Ball_Bearing_608_8_22_7mm.SLDPRT
+AUTO: saved open document before run: C:\Users\User\Desktop\SR\Thrust_Bearing_40_60_13.SLDPRT
+AUTO: saved open document before run: C:\Users\User\Desktop\SR\GT2_Pulley_110teeth_J1.SLDPRT
+AUTO: saved open document before run: C:\Users\User\Desktop\SR\GT2_Pulley_22_80teeth.SLDPRT
+AUTO: saved open document before run: C:\Users\User\Desktop\SR\GT2_Pulley_Parametric.SLDPRT
+AUTO: saved open document before run: C:\Users\User\Desktop\SR\M8_Washer.SLDPRT
+AUTO: saved open document before run: C:\Users\User\Desktop\SR\J1_coupler.SLDPRT
+AUTO: saved open document before run: C:\Users\User\Desktop\SR\Z_axis_Bottom_Plate.SLDPRT
+AUTO: saved open document before run: C:\Users\User\Desktop\SR\Smooth_Rod_D10mm_L400mm.SLDPRT
+AUTO: saved open document before run: C:\Users\User\Desktop\SR\Smooth_Rod_Clamp.SLDPRT
+AUTO: saved open document before run: C:\Users\User\Desktop\SR\Z_axis_Top_Plate.SLDPRT
+AUTO: saved open document before run: C:\Users\User\Desktop\SR\Lead_Screw_D8mm_L380mm.SLDPRT
+AUTO: saved open document before run: C:\Users\User\Desktop\SR\Z_axis_Mount_Platform.SLDPRT
+AUTO: saved open document before run: C:\Users\User\Desktop\SR\Arm_1.SLDPRT
+AUTO: saved open document before run: C:\Users\User\Desktop\SR\J2_Coupler.SLDPRT
+AUTO: saved open document before run: C:\Users\User\Desktop\SR\Thrust_Bearing_35x52x12mm.SLDPRT
+AUTO: saved open document before run: C:\Users\User\Desktop\SR\Ball_Bearing_30x42x7mm.SLDPRT
+AUTO: saved open document before run: C:\Users\User\Desktop\SR\GT2_Pulley_92teeth_J2.SLDPRT
+AUTO: saved open document before run: C:\Users\User\Desktop\SR\GT2_Pulley_23_80teeth.SLDPRT
+AUTO: saved open document before run: C:\Users\User\Desktop\SR\Linear_Bearing_10x19x29mm.SLDPRT
+AUTO: saved open document before run: C:\Users\User\Desktop\SR\Arm_2.SLDPRT
+AUTO: saved open document before run: C:\Users\User\Desktop\SR\Arm_2_Cover.SLDPRT
+AUTO: saved open document before run: C:\Users\User\Desktop\SR\Micro_switch.SLDPRT
+AUTO: saved open document before run: C:\Users\User\Desktop\SR\NEMA_17_Stepper_L24mm_20mm_shaft.SLDPRT
+AUTO: saved open document before run: C:\Users\User\Desktop\SR\J3_Coupler.SLDPRT
+AUTO: saved open document before run: C:\Users\User\Desktop\SR\GT2_Pulley_90teeth_J3.SLDPRT
+AUTO: saved open document before run: C:\Users\User\Desktop\SR\Lead_Screw_Nut_8mm.SLDPRT
+AUTO: saved open document before run: C:\Users\User\Desktop\SR\SR_50_002_Servo_Holder.SLDPRT
+AUTO: saved open document before run: C:\Users\User\Desktop\SR\COTS_SRV_MG996R.SLDPRT
+AUTO: saved open document before run: C:\Users\User\Desktop\SR\COTS_SRV_MG996R_Horn.SLDPRT
+AUTO: saved open document before run: C:\Users\User\Desktop\SR\SR_50_003_Gripper_Cover.SLDPRT
+AUTO: saved open document before run: C:\Users\User\Desktop\SR\SR_50_005_Gripper_Hand_Left.SLDPRT
+AUTO: saved open document before run: C:\Users\User\Desktop\SR\COTS_LIN_Rod_D6_L125.SLDPRT
+AUTO: saved open document before run: C:\Users\User\Desktop\SR\SR_50_009_Gripper_End.SLDPRT
+AUTO: saved open document before run: C:\Users\User\Desktop\SR\SR_50_006_Gripper_Hand_Right.SLDPRT
+AUTO: saved open document before run: C:\Users\User\Desktop\SR\SR_50_004_Gripper_Slider.SLDPRT
+AUTO: saved open document before run: C:\Users\User\Desktop\SR\SR_50_007_Gripper_Link_1.SLDPRT
+AUTO: saved open document before run: C:\Users\User\Desktop\SR\SR_50_008_Gripper_Link_2.SLDPRT
+AUTO: saved open document before run: C:\Users\User\Desktop\SR\SR_50_001_Gripper_To_J3_Connector.SLDPRT
+AUTO: saved open document before run: C:\Users\User\Desktop\SR\SR_50_010_Wide_Gripper_End.SLDPRT
+AUTO: saved open document before run: C:\Users\User\Desktop\SR\SR_50_011_Wide_Gripper_End_Left.SLDPRT
+AUTO: saved open document before run: C:\Users\User\Desktop\SR\Arm_1_Cover.SLDPRT
+AUTO: saved open document before run: C:\Users\User\Desktop\SR\Base_cover.SLDPRT
+AUTO: saved open document before run: C:\Users\User\Desktop\SR\Top_cover.SLDPRT
+AUTO: saved open document before run: C:\Users\User\Desktop\SR\Arduino UNO case p1.SLDPRT
+AUTO: saved open document before run: C:\Users\User\Desktop\SR\Arduino UNO case p2.SLDPRT
+AUTO: saved open document before run: C:\Users\User\Desktop\SR\GT2_Belt_200mm.SLDPRT
+AUTO: saved open document before run: C:\Users\User\Desktop\SR\GT2_Belt_300mm_2.SLDPRT
+AUTO: saved open document before run: C:\Users\User\Desktop\SR\GT2_Belt_400mm.SLDPRT
+AUTO: saved open document before run: C:\Users\User\Desktop\SR\GT2_Belt_300mm.SLDPRT
+AUTO: saved open document before run: C:\Users\User\Desktop\SR\GT2_Belt_400mm_2.SLDPRT
+AUTO: saved open document before run: C:\Users\User\Desktop\SR\Ball_Bearing_35x47x7mm.SLDPRT
+AUTO: saved open document before run: C:\Users\User\Desktop\SR\M8_45mm_Bolts.SLDPRT
+AUTO: saved open document before run: C:\Users\User\Desktop\SR\M8_Lock_nut.SLDPRT
+AUTO: saved open document before run: C:\Users\User\Desktop\SR\M4_Lock_nut.SLDPRT
+AUTO: saved open document before run: C:\Users\User\Desktop\SR\M4_60mm_Bolts.SLDPRT
+AUTO: saved open document before run: C:\Users\User\Desktop\SR\M4_50mm_Bolts.SLDPRT
+AUTO: saved open document before run: C:\Users\User\Desktop\SR\SCARA_Robot.SLDASM
+AUTO: 61 open document(s) saved and closed.
+Execution: 61 documents one-by-one (phase 1), 2 rename windows (phase 2), pause 250 ms, lightweight=True
+  REVIEW (inferred - verify): Arduino UNO case p1  ->  SR_60_001_Arduino_UNO_Case_P1
+  REVIEW (inferred - verify): Arduino UNO case p2  ->  SR_60_002_Arduino_UNO_Case_P2
+  REVIEW (inferred - verify): Micro_switch  ->  COTS_SW_Micro_Limit_Switch
+  REVIEW (inferred - verify): Ball_Bearing_35x47x7mm  ->  COTS_BRG_6807_35x47x7
+  REVIEW (inferred - verify): Smooth_Rod_D10mm_L400mm  ->  COTS_LIN_Rod_D10_L400
+  REVIEW (inferred - verify): Lead_Screw_D8mm_L380mm  ->  COTS_LIN_Lead_Screw_D8_L380
+--- Phase 1: open -> config rename -> material verify/set -> props -> save -> close ---
+[1/61] edit: C:\Users\User\Desktop\SR\Base.SLDPRT  (Part)  23:15:43
+CFG: already correct: 'Default' (Base)
+MAT KEEP (verified): Base [Default] = PLA+
+[1/61] saved: C:\Users\User\Desktop\SR\Base.SLDPRT
+[2/61] edit: C:\Users\User\Desktop\SR\J1_coupler.SLDPRT  (Part)  23:15:46
+CFG: already correct: 'Default' (J1_coupler)
+MAT KEEP (verified): J1_coupler [Default] = PLA+
+[2/61] saved: C:\Users\User\Desktop\SR\J1_coupler.SLDPRT
+[3/61] edit: C:\Users\User\Desktop\SR\Base_cover.SLDPRT  (Part)  23:15:49
+CFG: already correct: 'Default' (Base_cover)
+MAT KEEP (verified): Base_cover [Default] = PLA+
+[3/61] saved: C:\Users\User\Desktop\SR\Base_cover.SLDPRT
+[4/61] edit: C:\Users\User\Desktop\SR\GT2_Pulley_22_80teeth.SLDPRT  (Part)  23:15:51
+CFG: already correct: 'Default' (GT2_Pulley_22_80teeth)
+MAT KEEP (verified): GT2_Pulley_22_80teeth [Default] = PLA+
+[4/61] saved: C:\Users\User\Desktop\SR\GT2_Pulley_22_80teeth.SLDPRT
+[5/61] edit: C:\Users\User\Desktop\SR\GT2_Pulley_110teeth_J1.SLDPRT  (Part)  23:15:54
+CFG: already correct: 'Default' (GT2_Pulley_110teeth_J1)
+MAT KEEP (verified): GT2_Pulley_110teeth_J1 [Default] = PLA+
+[5/61] saved: C:\Users\User\Desktop\SR\GT2_Pulley_110teeth_J1.SLDPRT
+[6/61] edit: C:\Users\User\Desktop\SR\Z_axis_Bottom_Plate.SLDPRT  (Part)  23:15:56
+CFG: already correct: 'Default' (Z_axis_Bottom_Plate)
+MAT KEEP (verified): Z_axis_Bottom_Plate [Default] = PLA+
+[6/61] saved: C:\Users\User\Desktop\SR\Z_axis_Bottom_Plate.SLDPRT
+[7/61] edit: C:\Users\User\Desktop\SR\Z_axis_Top_Plate.SLDPRT  (Part)  23:15:58
+CFG: already correct: 'Default' (Z_axis_Top_Plate)
+MAT KEEP (verified): Z_axis_Top_Plate [Default] = PLA+
+[7/61] saved: C:\Users\User\Desktop\SR\Z_axis_Top_Plate.SLDPRT
+[8/61] edit: C:\Users\User\Desktop\SR\Z_axis_Mount_Platform.SLDPRT  (Part)  23:16:00
+CFG: already correct: 'Default' (Z_axis_Mount_Platform)
+MAT KEEP (verified): Z_axis_Mount_Platform [Default] = PLA+
+[8/61] saved: C:\Users\User\Desktop\SR\Z_axis_Mount_Platform.SLDPRT
+[9/61] edit: C:\Users\User\Desktop\SR\Top_cover.SLDPRT  (Part)  23:16:02
+CFG: already correct: 'Default' (Top_cover)
+MAT KEEP (verified): Top_cover [Default] = PLA+
+[9/61] saved: C:\Users\User\Desktop\SR\Top_cover.SLDPRT
+[10/61] edit: C:\Users\User\Desktop\SR\Arm_1.SLDPRT  (Part)  23:16:04
+CFG: already correct: 'Default' (Arm_1)
+MAT KEEP (verified): Arm_1 [Default] = PLA+
+[10/61] saved: C:\Users\User\Desktop\SR\Arm_1.SLDPRT
+[11/61] edit: C:\Users\User\Desktop\SR\Arm_1_Cover.SLDPRT  (Part)  23:16:06
+CFG: already correct: 'Default' (Arm_1_Cover)
+MAT KEEP (verified): Arm_1_Cover [Default] = PLA+
+[11/61] saved: C:\Users\User\Desktop\SR\Arm_1_Cover.SLDPRT
+[12/61] edit: C:\Users\User\Desktop\SR\J2_Coupler.SLDPRT  (Part)  23:16:08
+CFG: already correct: 'Default' (J2_Coupler)
+MAT KEEP (verified): J2_Coupler [Default] = PLA+
+[12/61] saved: C:\Users\User\Desktop\SR\J2_Coupler.SLDPRT
+[13/61] edit: C:\Users\User\Desktop\SR\GT2_Pulley_23_80teeth.SLDPRT  (Part)  23:16:10
+CFG: already correct: 'Default' (GT2_Pulley_23_80teeth)
+MAT KEEP (verified): GT2_Pulley_23_80teeth [Default] = PLA+
+[13/61] saved: C:\Users\User\Desktop\SR\GT2_Pulley_23_80teeth.SLDPRT
+[14/61] edit: C:\Users\User\Desktop\SR\GT2_Pulley_92teeth_J2.SLDPRT  (Part)  23:16:13
+CFG: already correct: 'Default' (GT2_Pulley_92teeth_J2)
+MAT KEEP (verified): GT2_Pulley_92teeth_J2 [Default] = PLA+
+[14/61] saved: C:\Users\User\Desktop\SR\GT2_Pulley_92teeth_J2.SLDPRT
+[15/61] edit: C:\Users\User\Desktop\SR\Arm_2.SLDPRT  (Part)  23:16:15
+CFG: already correct: 'Default' (Arm_2)
+MAT KEEP (verified): Arm_2 [Default] = PLA+
+[15/61] saved: C:\Users\User\Desktop\SR\Arm_2.SLDPRT
+[16/61] edit: C:\Users\User\Desktop\SR\Arm_2_Cover.SLDPRT  (Part)  23:16:17
+CFG: already correct: 'Default' (Arm_2_Cover)
+MAT KEEP (verified): Arm_2_Cover [Default] = PLA+
+[16/61] saved: C:\Users\User\Desktop\SR\Arm_2_Cover.SLDPRT
+[17/61] edit: C:\Users\User\Desktop\SR\J3_Coupler.SLDPRT  (Part)  23:16:19
+CFG: already correct: 'Default' (J3_Coupler)
+MAT KEEP (verified): J3_Coupler [Default] = PLA+
+[17/61] saved: C:\Users\User\Desktop\SR\J3_Coupler.SLDPRT
+[18/61] edit: C:\Users\User\Desktop\SR\GT2_Pulley_90teeth_J3.SLDPRT  (Part)  23:16:21
+CFG: already correct: 'Default' (GT2_Pulley_90teeth_J3)
+MAT KEEP (verified): GT2_Pulley_90teeth_J3 [Default] = PLA+
+[18/61] saved: C:\Users\User\Desktop\SR\GT2_Pulley_90teeth_J3.SLDPRT
+[19/61] edit: C:\Users\User\Desktop\SR\Arduino UNO case p1.SLDPRT  (Part)  23:16:23
+CFG: already correct: 'Default' (Arduino UNO case p1)
+WARNING: MAT: Arduino UNO case p1 expected 'PLA+', read back ''
+[19/61] saved: C:\Users\User\Desktop\SR\Arduino UNO case p1.SLDPRT
+[20/61] edit: C:\Users\User\Desktop\SR\Arduino UNO case p2.SLDPRT  (Part)  23:16:25
+CFG: already correct: 'Default' (Arduino UNO case p2)
+WARNING: MAT: Arduino UNO case p2 expected 'PLA+', read back ''
+[20/61] saved: C:\Users\User\Desktop\SR\Arduino UNO case p2.SLDPRT
+[21/61] edit: C:\Users\User\Desktop\SR\GT2_Pulley_Parametric.SLDPRT  (Part)  23:16:27
+CFG: already correct: 'Default' (GT2_Pulley_Parametric)
+MAT KEEP (verified): GT2_Pulley_Parametric [Default] = Alloy Steel
+[21/61] saved: C:\Users\User\Desktop\SR\GT2_Pulley_Parametric.SLDPRT
+[22/61] edit: C:\Users\User\Desktop\SR\Stepper_NEMA_17_20mm_shaft.SLDPRT  (Part)  23:16:29
+CFG: already correct: 'Default' (Stepper_NEMA_17_20mm_shaft)
+MAT KEEP (verified): Stepper_NEMA_17_20mm_shaft [Default] = Alloy Steel
+[22/61] saved: C:\Users\User\Desktop\SR\Stepper_NEMA_17_20mm_shaft.SLDPRT
+[23/61] edit: C:\Users\User\Desktop\SR\NEMA_17_Stepper_L24mm_20mm_shaft.SLDPRT  (Part)  23:16:31
+CFG: already correct: 'Default' (NEMA_17_Stepper_L24mm_20mm_shaft)
+MAT KEEP (verified): NEMA_17_Stepper_L24mm_20mm_shaft [Default] = Alloy Steel
+[23/61] saved: C:\Users\User\Desktop\SR\NEMA_17_Stepper_L24mm_20mm_shaft.SLDPRT
+[24/61] edit: C:\Users\User\Desktop\SR\Micro_switch.SLDPRT  (Part)  23:16:33
+CFG: already correct: 'Default' (Micro_switch)
+MAT KEEP (verified): Micro_switch [Default] = Alloy Steel
+[24/61] saved: C:\Users\User\Desktop\SR\Micro_switch.SLDPRT
+[25/61] edit: C:\Users\User\Desktop\SR\Ball_Bearing_608_8_22_7mm.SLDPRT  (Part)  23:16:35
+CFG: already correct: 'Default' (Ball_Bearing_608_8_22_7mm)
+MAT KEEP (verified): Ball_Bearing_608_8_22_7mm [Default] = Alloy Steel
+[25/61] saved: C:\Users\User\Desktop\SR\Ball_Bearing_608_8_22_7mm.SLDPRT
+[26/61] edit: C:\Users\User\Desktop\SR\Ball_Bearing_30x42x7mm.SLDPRT  (Part)  23:16:37
+CFG: already correct: 'Default' (Ball_Bearing_30x42x7mm)
+MAT KEEP (verified): Ball_Bearing_30x42x7mm [Default] = Alloy Steel
+[26/61] saved: C:\Users\User\Desktop\SR\Ball_Bearing_30x42x7mm.SLDPRT
+[27/61] edit: C:\Users\User\Desktop\SR\Ball_Bearing_35x47x7mm.SLDPRT  (Part)  23:16:39
+CFG: already correct: 'Default' (Ball_Bearing_35x47x7mm)
+MAT KEEP (verified): Ball_Bearing_35x47x7mm [Default] = Alloy Steel
+[27/61] saved: C:\Users\User\Desktop\SR\Ball_Bearing_35x47x7mm.SLDPRT
+[28/61] edit: C:\Users\User\Desktop\SR\Thrust_Bearing_40_60_13.SLDPRT  (Part)  23:16:41
+CFG: already correct: 'Default' (Thrust_Bearing_40_60_13)
+MAT KEEP (verified): Thrust_Bearing_40_60_13 [Default] = Alloy Steel
+[28/61] saved: C:\Users\User\Desktop\SR\Thrust_Bearing_40_60_13.SLDPRT
+[29/61] edit: C:\Users\User\Desktop\SR\Thrust_Bearing_35x52x12mm.SLDPRT  (Part)  23:16:43
+CFG: already correct: 'Default' (Thrust_Bearing_35x52x12mm)
+MAT KEEP (verified): Thrust_Bearing_35x52x12mm [Default] = Alloy Steel
+[29/61] saved: C:\Users\User\Desktop\SR\Thrust_Bearing_35x52x12mm.SLDPRT
+[30/61] edit: C:\Users\User\Desktop\SR\Linear_Bearing_10x19x29mm.SLDPRT  (Part)  23:16:45
+CFG: already correct: 'Default' (Linear_Bearing_10x19x29mm)
+MAT KEEP (verified): Linear_Bearing_10x19x29mm [Default] = Alloy Steel
+[30/61] saved: C:\Users\User\Desktop\SR\Linear_Bearing_10x19x29mm.SLDPRT
+[31/61] edit: C:\Users\User\Desktop\SR\Smooth_Rod_D10mm_L400mm.SLDPRT  (Part)  23:16:47
+CFG: already correct: 'Default' (Smooth_Rod_D10mm_L400mm)
+MAT KEEP (verified): Smooth_Rod_D10mm_L400mm [Default] = Alloy Steel
+[31/61] saved: C:\Users\User\Desktop\SR\Smooth_Rod_D10mm_L400mm.SLDPRT
+[32/61] edit: C:\Users\User\Desktop\SR\Smooth_Rod_Clamp.SLDPRT  (Part)  23:16:49
+CFG: already correct: 'Default' (Smooth_Rod_Clamp)
+MAT KEEP (verified): Smooth_Rod_Clamp [Default] = Alloy Steel
+[32/61] saved: C:\Users\User\Desktop\SR\Smooth_Rod_Clamp.SLDPRT
+[33/61] edit: C:\Users\User\Desktop\SR\Lead_Screw_D8mm_L380mm.SLDPRT  (Part)  23:16:51
+CFG: already correct: 'Default' (Lead_Screw_D8mm_L380mm)
+MAT KEEP (verified): Lead_Screw_D8mm_L380mm [Default] = Alloy Steel
+[33/61] saved: C:\Users\User\Desktop\SR\Lead_Screw_D8mm_L380mm.SLDPRT
+[34/61] edit: C:\Users\User\Desktop\SR\Lead_Screw_Nut_8mm.SLDPRT  (Part)  23:16:53
+CFG: already correct: 'Default' (Lead_Screw_Nut_8mm)
+MAT KEEP (verified): Lead_Screw_Nut_8mm [Default] = Alloy Steel
+[34/61] saved: C:\Users\User\Desktop\SR\Lead_Screw_Nut_8mm.SLDPRT
+[35/61] edit: C:\Users\User\Desktop\SR\GT2_Belt_200mm.SLDPRT  (Part)  23:16:55
+CFG: already correct: 'Default' (GT2_Belt_200mm)
+MAT KEEP (verified): GT2_Belt_200mm [Default] = BUTYL
+[35/61] saved: C:\Users\User\Desktop\SR\GT2_Belt_200mm.SLDPRT
+[36/61] edit: C:\Users\User\Desktop\SR\GT2_Belt_300mm.SLDPRT  (Part)  23:16:57
+CFG: already correct: 'Default' (GT2_Belt_300mm)
+MAT KEEP (verified): GT2_Belt_300mm [Default] = BUTYL
+[36/61] saved: C:\Users\User\Desktop\SR\GT2_Belt_300mm.SLDPRT
+[37/61] edit: C:\Users\User\Desktop\SR\GT2_Belt_300mm_2.SLDPRT  (Part)  23:16:59
+CFG: already correct: 'Default' (GT2_Belt_300mm_2)
+MAT KEEP (verified): GT2_Belt_300mm_2 [Default] = BUTYL
+[37/61] saved: C:\Users\User\Desktop\SR\GT2_Belt_300mm_2.SLDPRT
+[38/61] edit: C:\Users\User\Desktop\SR\GT2_Belt_400mm.SLDPRT  (Part)  23:17:01
+CFG: already correct: 'Default' (GT2_Belt_400mm)
+MAT KEEP (verified): GT2_Belt_400mm [Default] = BUTYL
+[38/61] saved: C:\Users\User\Desktop\SR\GT2_Belt_400mm.SLDPRT
+[39/61] edit: C:\Users\User\Desktop\SR\GT2_Belt_400mm_2.SLDPRT  (Part)  23:17:03
+CFG: already correct: 'Default' (GT2_Belt_400mm_2)
+MAT KEEP (verified): GT2_Belt_400mm_2 [Default] = BUTYL
+[39/61] saved: C:\Users\User\Desktop\SR\GT2_Belt_400mm_2.SLDPRT
+[40/61] edit: C:\Users\User\Desktop\SR\M4_50mm_Bolts.SLDPRT  (Part)  23:17:06
+CFG: already correct: 'Default' (M4_50mm_Bolts)
+MAT KEEP (verified): M4_50mm_Bolts [Default] = Ductile Iron
+[40/61] saved: C:\Users\User\Desktop\SR\M4_50mm_Bolts.SLDPRT
+[41/61] edit: C:\Users\User\Desktop\SR\M4_60mm_Bolts.SLDPRT  (Part)  23:17:08
+CFG: already correct: 'Default' (M4_60mm_Bolts)
+MAT KEEP (verified): M4_60mm_Bolts [Default] = Ductile Iron
+[41/61] saved: C:\Users\User\Desktop\SR\M4_60mm_Bolts.SLDPRT
+[42/61] edit: C:\Users\User\Desktop\SR\M8_45mm_Bolts.SLDPRT  (Part)  23:17:10
+CFG: already correct: 'Default' (M8_45mm_Bolts)
+MAT KEEP (verified): M8_45mm_Bolts [Default] = Ductile Iron
+[42/61] saved: C:\Users\User\Desktop\SR\M8_45mm_Bolts.SLDPRT
+[43/61] edit: C:\Users\User\Desktop\SR\M4_Lock_nut.SLDPRT  (Part)  23:17:12
+CFG: already correct: 'Default' (M4_Lock_nut)
+MAT KEEP (verified): M4_Lock_nut [Default] = Ductile Iron
+[43/61] saved: C:\Users\User\Desktop\SR\M4_Lock_nut.SLDPRT
+[44/61] edit: C:\Users\User\Desktop\SR\M8_Lock_nut.SLDPRT  (Part)  23:17:14
+CFG: already correct: 'Default' (M8_Lock_nut)
+MAT KEEP (verified): M8_Lock_nut [Default] = Ductile Iron
+[44/61] saved: C:\Users\User\Desktop\SR\M8_Lock_nut.SLDPRT
+[45/61] edit: C:\Users\User\Desktop\SR\M8_Washer.SLDPRT  (Part)  23:17:16
+CFG: already correct: 'Default' (M8_Washer)
+MAT KEEP (verified): M8_Washer [Default] = Alloy Steel
+[45/61] saved: C:\Users\User\Desktop\SR\M8_Washer.SLDPRT
+[46/61] edit: C:\Users\User\Desktop\SR\Gripper_to_J3_connector.SLDPRT  (Part)  23:17:18
+CFG: already correct: 'Default' (Gripper_to_J3_connector)
+MAT KEEP (verified): Gripper_to_J3_connector [Default] = PLA+
+[46/61] saved: C:\Users\User\Desktop\SR\Gripper_to_J3_connector.SLDPRT
+[47/61] edit: C:\Users\User\Desktop\SR\Servo_Holder.SLDPRT  (Part)  23:17:20
+CFG: already correct: 'Default' (Servo_Holder)
+MAT KEEP (verified): Servo_Holder [Default] = PLA+
+[47/61] saved: C:\Users\User\Desktop\SR\Servo_Holder.SLDPRT
+[48/61] edit: C:\Users\User\Desktop\SR\Gripper_Cover.SLDPRT  (Part)  23:17:22
+CFG: already correct: 'Default' (Gripper_Cover)
+MAT KEEP (verified): Gripper_Cover [Default] = PLA+
+[48/61] saved: C:\Users\User\Desktop\SR\Gripper_Cover.SLDPRT
+[49/61] edit: C:\Users\User\Desktop\SR\Gripper_Mechanism_Slider.SLDPRT  (Part)  23:17:23
+CFG: already correct: 'Default' (Gripper_Mechanism_Slider)
+MAT KEEP (verified): Gripper_Mechanism_Slider [Default] = PLA+
+[49/61] saved: C:\Users\User\Desktop\SR\Gripper_Mechanism_Slider.SLDPRT
+[50/61] edit: C:\Users\User\Desktop\SR\Gripper_Hand_Left.SLDPRT  (Part)  23:17:25
+CFG: already correct: 'Default' (Gripper_Hand_Left)
+MAT KEEP (verified): Gripper_Hand_Left [Default] = PLA+
+[50/61] saved: C:\Users\User\Desktop\SR\Gripper_Hand_Left.SLDPRT
+[51/61] edit: C:\Users\User\Desktop\SR\Gripper_Hand_Right.SLDPRT  (Part)  23:17:27
+CFG: already correct: 'Default' (Gripper_Hand_Right)
+MAT KEEP (verified): Gripper_Hand_Right [Default] = PLA+
+[51/61] saved: C:\Users\User\Desktop\SR\Gripper_Hand_Right.SLDPRT
+[52/61] edit: C:\Users\User\Desktop\SR\Gripper_link1.SLDPRT  (Part)  23:17:29
+CFG: already correct: 'Default' (Gripper_link1)
+MAT KEEP (verified): Gripper_link1 [Default] = PLA+
+[52/61] saved: C:\Users\User\Desktop\SR\Gripper_link1.SLDPRT
+[53/61] edit: C:\Users\User\Desktop\SR\Gripper_link2.SLDPRT  (Part)  23:17:30
+CFG: already correct: 'Default' (Gripper_link2)
+MAT KEEP (verified): Gripper_link2 [Default] = PLA+
+[53/61] saved: C:\Users\User\Desktop\SR\Gripper_link2.SLDPRT
+[54/61] edit: C:\Users\User\Desktop\SR\Gripper_End.SLDPRT  (Part)  23:17:32
+CFG: already correct: 'Default' (Gripper_End)
+MAT KEEP (verified): Gripper_End [Default] = PLA+
+[54/61] saved: C:\Users\User\Desktop\SR\Gripper_End.SLDPRT
+[55/61] edit: C:\Users\User\Desktop\SR\Wide_gripper_end.SLDPRT  (Part)  23:17:34
+CFG: already correct: 'Default' (Wide_gripper_end)
+MAT KEEP (verified): Wide_gripper_end [Default] = PLA+
+[55/61] saved: C:\Users\User\Desktop\SR\Wide_gripper_end.SLDPRT
+[56/61] edit: C:\Users\User\Desktop\SR\Wide_gripper_end_Left_side.SLDPRT  (Part)  23:17:36
+CFG: already correct: 'Default' (Wide_gripper_end_Left_side)
+MAT KEEP (verified): Wide_gripper_end_Left_side [Default] = PLA+
+[56/61] saved: C:\Users\User\Desktop\SR\Wide_gripper_end_Left_side.SLDPRT
+[57/61] edit: C:\Users\User\Desktop\SR\Gripper_rail_6mm.SLDPRT  (Part)  23:17:37
+CFG: already correct: 'Default' (Gripper_rail_6mm)
+MAT KEEP (verified): Gripper_rail_6mm [Default] = Alloy Steel
+[57/61] saved: C:\Users\User\Desktop\SR\Gripper_rail_6mm.SLDPRT
+[58/61] edit: C:\Users\User\Desktop\SR\Servo_Motor_MG996R_3D_Model.SLDPRT  (Part)  23:17:39
+CFG: already correct: 'Default' (Servo_Motor_MG996R_3D_Model)
+MAT KEEP (verified): Servo_Motor_MG996R_3D_Model [Default] = ABS
+[58/61] saved: C:\Users\User\Desktop\SR\Servo_Motor_MG996R_3D_Model.SLDPRT
+[59/61] edit: C:\Users\User\Desktop\SR\Servo_MG996R_Horn.SLDPRT  (Part)  23:17:41
+CFG: already correct: 'Default' (Servo_MG996R_Horn)
+MAT KEEP (verified): Servo_MG996R_Horn [Default] = ABS
+[59/61] saved: C:\Users\User\Desktop\SR\Servo_MG996R_Horn.SLDPRT
+[60/61] edit: C:\Users\User\Desktop\SR\Gripper_Mechanism.SLDASM  (Assembly)  23:17:43
+CFG: already correct: 'Default' (Gripper_Mechanism)
+[60/61] saved: C:\Users\User\Desktop\SR\Gripper_Mechanism.SLDASM
+[61/61] edit: C:\Users\User\Desktop\SR\SCARA_Robot.SLDASM  (Assembly)  23:17:48
+CFG: already correct: 'Default' (SCARA_Robot)
+[61/61] saved: C:\Users\User\Desktop\SR\SCARA_Robot.SLDASM
+Phase 1 done: docs=61/61, cfg renames=0 (skipped 0), materials verified(kept)=57, set=0 (fail 2), props=364
+--- Phase 2: per-assembly rename windows (deepest first) ---
+[win 1/2 Gripper_Mechanism] window open (23:17:51): C:\Users\User\Desktop\SR\Gripper_Mechanism.SLDASM
+[win 1/2 Gripper_Mechanism] child already renamed: SR_50_001_Gripper_To_J3_Connector
+[win 1/2 Gripper_Mechanism] child already renamed: SR_50_002_Servo_Holder
+[win 1/2 Gripper_Mechanism] child already renamed: SR_50_003_Gripper_Cover
+[win 1/2 Gripper_Mechanism] child already renamed: SR_50_004_Gripper_Slider
+[win 1/2 Gripper_Mechanism] child already renamed: SR_50_005_Gripper_Hand_Left
+[win 1/2 Gripper_Mechanism] child already renamed: SR_50_006_Gripper_Hand_Right
+[win 1/2 Gripper_Mechanism] child already renamed: SR_50_007_Gripper_Link_1
+[win 1/2 Gripper_Mechanism] child already renamed: SR_50_008_Gripper_Link_2
+[win 1/2 Gripper_Mechanism] child already renamed: SR_50_009_Gripper_End
+[win 1/2 Gripper_Mechanism] child already renamed: SR_50_010_Wide_Gripper_End
+[win 1/2 Gripper_Mechanism] child already renamed: SR_50_011_Wide_Gripper_End_Left
+[win 1/2 Gripper_Mechanism] child already renamed: COTS_LIN_Rod_D6_L125
+[win 1/2 Gripper_Mechanism] child already renamed: COTS_SRV_MG996R
+[win 1/2 Gripper_Mechanism] child already renamed: COTS_SRV_MG996R_Horn
+[win 1/2 Gripper_Mechanism] nothing to change in this window
+[win 2/2 SCARA_Robot] window open (23:17:55): C:\Users\User\Desktop\SR\SCARA_Robot.SLDASM
+[win 2/2 SCARA_Robot] existing target moved aside temporarily: SR_10_001_Base
+[win 2/2 SCARA_Robot] SelectByID2 failed for 'Base-1'
+[win 2/2 SCARA_Robot] SelectByID2 failed for 'Base-1'
+[win 2/2 SCARA_Robot] SaveAs fallback OK: Base -> SR_10_001_Base
+[win 2/2 SCARA_Robot] RENAMED: Base  ->  SR_10_001_Base  (23:17:57)
+[win 2/2 SCARA_Robot] existing target moved aside temporarily: SR_10_002_J1_Coupler
+[win 2/2 SCARA_Robot] SelectByID2 failed for 'J1_coupler-1'
+[win 2/2 SCARA_Robot] SelectByID2 failed for 'J1_coupler-1'
+[win 2/2 SCARA_Robot] SaveAs fallback OK: J1_coupler -> SR_10_002_J1_Coupler
+[win 2/2 SCARA_Robot] RENAMED: J1_coupler  ->  SR_10_002_J1_Coupler  (23:17:59)
+[win 2/2 SCARA_Robot] existing target moved aside temporarily: SR_10_003_Base_Cover
+[win 2/2 SCARA_Robot] SelectByID2 failed for 'Base_cover-1'
+[win 2/2 SCARA_Robot] SelectByID2 failed for 'Base_cover-1'
+[win 2/2 SCARA_Robot] SaveAs fallback OK: Base_cover -> SR_10_003_Base_Cover
+[win 2/2 SCARA_Robot] RENAMED: Base_cover  ->  SR_10_003_Base_Cover  (23:18:01)
+[win 2/2 SCARA_Robot] existing target moved aside temporarily: SR_10_004_GT2_J1_Idler_Pulley_80T
+[win 2/2 SCARA_Robot] SelectByID2 failed for 'GT2_Pulley_22_80teeth-2'
+[win 2/2 SCARA_Robot] SelectByID2 failed for 'GT2_Pulley_22_80teeth-2'
+[win 2/2 SCARA_Robot] SaveAs fallback OK: GT2_Pulley_22_80teeth -> SR_10_004_GT2_J1_Idler_Pulley_80T
+[win 2/2 SCARA_Robot] RENAMED: GT2_Pulley_22_80teeth  ->  SR_10_004_GT2_J1_Idler_Pulley_80T  (23:18:03)
+[win 2/2 SCARA_Robot] existing target moved aside temporarily: SR_10_005_GT2_J1_Driven_Pulley_110T
+[win 2/2 SCARA_Robot] SelectByID2 failed for 'GT2_Pulley_110teeth_J1-2'
+[win 2/2 SCARA_Robot] SelectByID2 failed for 'GT2_Pulley_110teeth_J1-2'
+[win 2/2 SCARA_Robot] SaveAs fallback OK: GT2_Pulley_110teeth_J1 -> SR_10_005_GT2_J1_Driven_Pulley_110T
+[win 2/2 SCARA_Robot] RENAMED: GT2_Pulley_110teeth_J1  ->  SR_10_005_GT2_J1_Driven_Pulley_110T  (23:18:05)
+[win 2/2 SCARA_Robot] existing target moved aside temporarily: SR_20_001_Z_Bottom_Plate
+[win 2/2 SCARA_Robot] SelectByID2 failed for 'Z_axis_Bottom_Plate-2'
+[win 2/2 SCARA_Robot] SelectByID2 failed for 'Z_axis_Bottom_Plate-2'
+[win 2/2 SCARA_Robot] SaveAs fallback OK: Z_axis_Bottom_Plate -> SR_20_001_Z_Bottom_Plate
+[win 2/2 SCARA_Robot] RENAMED: Z_axis_Bottom_Plate  ->  SR_20_001_Z_Bottom_Plate  (23:18:07)
+[win 2/2 SCARA_Robot] existing target moved aside temporarily: SR_20_002_Z_Top_Plate
+[win 2/2 SCARA_Robot] SelectByID2 failed for 'Z_axis_Top_Plate-1'
+[win 2/2 SCARA_Robot] SelectByID2 failed for 'Z_axis_Top_Plate-1'
+[win 2/2 SCARA_Robot] SaveAs fallback OK: Z_axis_Top_Plate -> SR_20_002_Z_Top_Plate
+[win 2/2 SCARA_Robot] RENAMED: Z_axis_Top_Plate  ->  SR_20_002_Z_Top_Plate  (23:18:09)
+[win 2/2 SCARA_Robot] existing target moved aside temporarily: SR_20_003_Z_Mount_Platform
+[win 2/2 SCARA_Robot] SelectByID2 failed for 'Z_axis_Mount_Platform-1'
+[win 2/2 SCARA_Robot] SelectByID2 failed for 'Z_axis_Mount_Platform-1'
+[win 2/2 SCARA_Robot] SaveAs fallback OK: Z_axis_Mount_Platform -> SR_20_003_Z_Mount_Platform
+[win 2/2 SCARA_Robot] RENAMED: Z_axis_Mount_Platform  ->  SR_20_003_Z_Mount_Platform  (23:18:11)
+[win 2/2 SCARA_Robot] existing target moved aside temporarily: SR_20_004_Z_Top_Cover
+[win 2/2 SCARA_Robot] SelectByID2 failed for 'Top_cover-1'
+[win 2/2 SCARA_Robot] SelectByID2 failed for 'Top_cover-1'
+[win 2/2 SCARA_Robot] SaveAs fallback OK: Top_cover -> SR_20_004_Z_Top_Cover
+[win 2/2 SCARA_Robot] RENAMED: Top_cover  ->  SR_20_004_Z_Top_Cover  (23:18:13)
+[win 2/2 SCARA_Robot] existing target moved aside temporarily: SR_30_001_Arm_1
+[win 2/2 SCARA_Robot] SelectByID2 failed for 'Arm_1-1'
+[win 2/2 SCARA_Robot] SelectByID2 failed for 'Arm_1-1'
+[win 2/2 SCARA_Robot] SaveAs fallback OK: Arm_1 -> SR_30_001_Arm_1
+[win 2/2 SCARA_Robot] RENAMED: Arm_1  ->  SR_30_001_Arm_1  (23:18:15)
+[win 2/2 SCARA_Robot] existing target moved aside temporarily: SR_30_002_Arm_1_Cover
+[win 2/2 SCARA_Robot] SelectByID2 failed for 'Arm_1_Cover-1'
+[win 2/2 SCARA_Robot] SelectByID2 failed for 'Arm_1_Cover-1'
+[win 2/2 SCARA_Robot] SaveAs fallback OK: Arm_1_Cover -> SR_30_002_Arm_1_Cover
+[win 2/2 SCARA_Robot] RENAMED: Arm_1_Cover  ->  SR_30_002_Arm_1_Cover  (23:18:17)
+[win 2/2 SCARA_Robot] existing target moved aside temporarily: SR_30_003_J2_Coupler
+[win 2/2 SCARA_Robot] SelectByID2 failed for 'J2_Coupler-1'
+[win 2/2 SCARA_Robot] SelectByID2 failed for 'J2_Coupler-1'
+[win 2/2 SCARA_Robot] SaveAs fallback OK: J2_Coupler -> SR_30_003_J2_Coupler
+[win 2/2 SCARA_Robot] RENAMED: J2_Coupler  ->  SR_30_003_J2_Coupler  (23:18:20)
+[win 2/2 SCARA_Robot] existing target moved aside temporarily: SR_30_004_GT2_J2_Idler_Pulley_80T
+[win 2/2 SCARA_Robot] SelectByID2 failed for 'GT2_Pulley_23_80teeth-1'
+[win 2/2 SCARA_Robot] SelectByID2 failed for 'GT2_Pulley_23_80teeth-1'
+[win 2/2 SCARA_Robot] SaveAs fallback OK: GT2_Pulley_23_80teeth -> SR_30_004_GT2_J2_Idler_Pulley_80T
+[win 2/2 SCARA_Robot] RENAMED: GT2_Pulley_23_80teeth  ->  SR_30_004_GT2_J2_Idler_Pulley_80T  (23:18:22)
+[win 2/2 SCARA_Robot] existing target moved aside temporarily: SR_30_005_GT2_J2_Driven_Pulley_92T
+[win 2/2 SCARA_Robot] SelectByID2 failed for 'GT2_Pulley_92teeth_J2-1'
+[win 2/2 SCARA_Robot] SelectByID2 failed for 'GT2_Pulley_92teeth_J2-1'
+[win 2/2 SCARA_Robot] SaveAs fallback OK: GT2_Pulley_92teeth_J2 -> SR_30_005_GT2_J2_Driven_Pulley_92T
+[win 2/2 SCARA_Robot] RENAMED: GT2_Pulley_92teeth_J2  ->  SR_30_005_GT2_J2_Driven_Pulley_92T  (23:18:24)
+[win 2/2 SCARA_Robot] existing target moved aside temporarily: SR_40_001_Arm_2
+[win 2/2 SCARA_Robot] SelectByID2 failed for 'Arm_2-1'
+[win 2/2 SCARA_Robot] SelectByID2 failed for 'Arm_2-1'
+[win 2/2 SCARA_Robot] SaveAs fallback OK: Arm_2 -> SR_40_001_Arm_2
+[win 2/2 SCARA_Robot] RENAMED: Arm_2  ->  SR_40_001_Arm_2  (23:18:26)
+[win 2/2 SCARA_Robot] existing target moved aside temporarily: SR_40_002_Arm_2_Cover
+[win 2/2 SCARA_Robot] SelectByID2 failed for 'Arm_2_Cover-1'
+[win 2/2 SCARA_Robot] SelectByID2 failed for 'Arm_2_Cover-1'
+[win 2/2 SCARA_Robot] SaveAs fallback OK: Arm_2_Cover -> SR_40_002_Arm_2_Cover
+[win 2/2 SCARA_Robot] RENAMED: Arm_2_Cover  ->  SR_40_002_Arm_2_Cover  (23:18:29)
+[win 2/2 SCARA_Robot] existing target moved aside temporarily: SR_40_003_J3_Coupler
+[win 2/2 SCARA_Robot] SelectByID2 failed for 'J3_Coupler-1'
+[win 2/2 SCARA_Robot] SelectByID2 failed for 'J3_Coupler-1'
+[win 2/2 SCARA_Robot] SaveAs fallback OK: J3_Coupler -> SR_40_003_J3_Coupler
+[win 2/2 SCARA_Robot] RENAMED: J3_Coupler  ->  SR_40_003_J3_Coupler  (23:18:31)
+[win 2/2 SCARA_Robot] existing target moved aside temporarily: SR_40_004_GT2_J3_Driven_Pulley_90T
+[win 2/2 SCARA_Robot] SelectByID2 failed for 'GT2_Pulley_90teeth_J3-1'
+[win 2/2 SCARA_Robot] SelectByID2 failed for 'GT2_Pulley_90teeth_J3-1'
+[win 2/2 SCARA_Robot] SaveAs fallback OK: GT2_Pulley_90teeth_J3 -> SR_40_004_GT2_J3_Driven_Pulley_90T
+[win 2/2 SCARA_Robot] RENAMED: GT2_Pulley_90teeth_J3  ->  SR_40_004_GT2_J3_Driven_Pulley_90T  (23:18:33)
+[win 2/2 SCARA_Robot] existing target moved aside temporarily: SR_60_001_Arduino_UNO_Case_P1
+[win 2/2 SCARA_Robot] SelectByID2 failed for 'Arduino UNO case p1-1'
+[win 2/2 SCARA_Robot] SelectByID2 failed for 'Arduino UNO case p1-1'
+[win 2/2 SCARA_Robot] SaveAs fallback OK: Arduino UNO case p1 -> SR_60_001_Arduino_UNO_Case_P1
+[win 2/2 SCARA_Robot] RENAMED: Arduino UNO case p1  ->  SR_60_001_Arduino_UNO_Case_P1  (23:18:36)
+[win 2/2 SCARA_Robot] existing target moved aside temporarily: SR_60_002_Arduino_UNO_Case_P2
+[win 2/2 SCARA_Robot] SelectByID2 failed for 'Arduino UNO case p2-1'
+[win 2/2 SCARA_Robot] SelectByID2 failed for 'Arduino UNO case p2-1'
+[win 2/2 SCARA_Robot] SaveAs fallback OK: Arduino UNO case p2 -> SR_60_002_Arduino_UNO_Case_P2
+[win 2/2 SCARA_Robot] RENAMED: Arduino UNO case p2  ->  SR_60_002_Arduino_UNO_Case_P2  (23:18:38)
+[win 2/2 SCARA_Robot] existing target moved aside temporarily: COTS_PUL_GT2_Metal_Drive_Pulley
+[win 2/2 SCARA_Robot] SelectByID2 failed for 'GT2_Pulley_Parametric-2'
+[win 2/2 SCARA_Robot] SelectByID2 failed for 'GT2_Pulley_Parametric-2'
+[win 2/2 SCARA_Robot] SaveAs fallback OK: GT2_Pulley_Parametric -> COTS_PUL_GT2_Metal_Drive_Pulley
+[win 2/2 SCARA_Robot] RENAMED: GT2_Pulley_Parametric  ->  COTS_PUL_GT2_Metal_Drive_Pulley  (23:18:41)
+[win 2/2 SCARA_Robot] existing target moved aside temporarily: COTS_MOT_NEMA17_20mm_Shaft
+[win 2/2 SCARA_Robot] SelectByID2 failed for 'Stepper_NEMA_17_20mm_shaft-2'
+[win 2/2 SCARA_Robot] SelectByID2 failed for 'Stepper_NEMA_17_20mm_shaft-2'
+[win 2/2 SCARA_Robot] SaveAs fallback OK: Stepper_NEMA_17_20mm_shaft -> COTS_MOT_NEMA17_20mm_Shaft
+[win 2/2 SCARA_Robot] RENAMED: Stepper_NEMA_17_20mm_shaft  ->  COTS_MOT_NEMA17_20mm_Shaft  (23:18:43)
+[win 2/2 SCARA_Robot] existing target moved aside temporarily: COTS_MOT_NEMA17_L24_20mm_Shaft
+[win 2/2 SCARA_Robot] SelectByID2 failed for 'NEMA_17_Stepper_L24mm_20mm_shaft-1'
+[win 2/2 SCARA_Robot] SelectByID2 failed for 'NEMA_17_Stepper_L24mm_20mm_shaft-1'
+[win 2/2 SCARA_Robot] SaveAs fallback OK: NEMA_17_Stepper_L24mm_20mm_shaft -> COTS_MOT_NEMA17_L24_20mm_Shaft
+[win 2/2 SCARA_Robot] RENAMED: NEMA_17_Stepper_L24mm_20mm_shaft  ->  COTS_MOT_NEMA17_L24_20mm_Shaft  (23:18:45)
+[win 2/2 SCARA_Robot] existing target moved aside temporarily: COTS_SW_Micro_Limit_Switch
+[win 2/2 SCARA_Robot] SelectByID2 failed for 'Micro_switch-3'
+[win 2/2 SCARA_Robot] SelectByID2 failed for 'Micro_switch-3'
+[win 2/2 SCARA_Robot] SaveAs fallback OK: Micro_switch -> COTS_SW_Micro_Limit_Switch
+[win 2/2 SCARA_Robot] RENAMED: Micro_switch  ->  COTS_SW_Micro_Limit_Switch  (23:18:47)
+[win 2/2 SCARA_Robot] existing target moved aside temporarily: COTS_BRG_608_8x22x7
+[win 2/2 SCARA_Robot] SelectByID2 failed for 'Ball_Bearing_608_8_22_7mm-6'
+[win 2/2 SCARA_Robot] SelectByID2 failed for 'Ball_Bearing_608_8_22_7mm-6'
+[win 2/2 SCARA_Robot] SaveAs fallback OK: Ball_Bearing_608_8_22_7mm -> COTS_BRG_608_8x22x7
+[win 2/2 SCARA_Robot] RENAMED: Ball_Bearing_608_8_22_7mm  ->  COTS_BRG_608_8x22x7  (23:18:50)
+[win 2/2 SCARA_Robot] existing target moved aside temporarily: COTS_BRG_6806_30x42x7
+[win 2/2 SCARA_Robot] SelectByID2 failed for 'Ball_Bearing_30x42x7mm-1'
+[win 2/2 SCARA_Robot] SelectByID2 failed for 'Ball_Bearing_30x42x7mm-1'
+[win 2/2 SCARA_Robot] SaveAs fallback OK: Ball_Bearing_30x42x7mm -> COTS_BRG_6806_30x42x7
+[win 2/2 SCARA_Robot] RENAMED: Ball_Bearing_30x42x7mm  ->  COTS_BRG_6806_30x42x7  (23:18:52)
+[win 2/2 SCARA_Robot] existing target moved aside temporarily: COTS_BRG_6807_35x47x7
+[win 2/2 SCARA_Robot] SelectByID2 failed for 'Ball_Bearing_35x47x7mm-1'
+[win 2/2 SCARA_Robot] SelectByID2 failed for 'Ball_Bearing_35x47x7mm-1'
+[win 2/2 SCARA_Robot] SaveAs fallback OK: Ball_Bearing_35x47x7mm -> COTS_BRG_6807_35x47x7
+[win 2/2 SCARA_Robot] RENAMED: Ball_Bearing_35x47x7mm  ->  COTS_BRG_6807_35x47x7  (23:18:54)
+[win 2/2 SCARA_Robot] existing target moved aside temporarily: COTS_BRG_51108_40x60x13
+[win 2/2 SCARA_Robot] SelectByID2 failed for 'Thrust_Bearing_40_60_13-3'
+[win 2/2 SCARA_Robot] SelectByID2 failed for 'Thrust_Bearing_40_60_13-3'
+[win 2/2 SCARA_Robot] SaveAs fallback OK: Thrust_Bearing_40_60_13 -> COTS_BRG_51108_40x60x13
+[win 2/2 SCARA_Robot] RENAMED: Thrust_Bearing_40_60_13  ->  COTS_BRG_51108_40x60x13  (23:18:57)
+[win 2/2 SCARA_Robot] existing target moved aside temporarily: COTS_BRG_51107_35x52x12
+[win 2/2 SCARA_Robot] SelectByID2 failed for 'Thrust_Bearing_35x52x12mm-1'
+[win 2/2 SCARA_Robot] SelectByID2 failed for 'Thrust_Bearing_35x52x12mm-1'
+[win 2/2 SCARA_Robot] SaveAs fallback OK: Thrust_Bearing_35x52x12mm -> COTS_BRG_51107_35x52x12
+[win 2/2 SCARA_Robot] RENAMED: Thrust_Bearing_35x52x12mm  ->  COTS_BRG_51107_35x52x12  (23:19:00)
+[win 2/2 SCARA_Robot] existing target moved aside temporarily: COTS_LIN_LM10UU_10x19x29
+[win 2/2 SCARA_Robot] SelectByID2 failed for 'Linear_Bearing_10x19x29mm-1'
+[win 2/2 SCARA_Robot] SelectByID2 failed for 'Linear_Bearing_10x19x29mm-1'
+[win 2/2 SCARA_Robot] SaveAs fallback OK: Linear_Bearing_10x19x29mm -> COTS_LIN_LM10UU_10x19x29
+[win 2/2 SCARA_Robot] RENAMED: Linear_Bearing_10x19x29mm  ->  COTS_LIN_LM10UU_10x19x29  (23:19:04)
+[win 2/2 SCARA_Robot] existing target moved aside temporarily: COTS_LIN_Rod_D10_L400
+[win 2/2 SCARA_Robot] SelectByID2 failed for 'Smooth_Rod_D10mm_L400mm-4'
+[win 2/2 SCARA_Robot] SelectByID2 failed for 'Smooth_Rod_D10mm_L400mm-4'
+[win 2/2 SCARA_Robot] SaveAs fallback OK: Smooth_Rod_D10mm_L400mm -> COTS_LIN_Rod_D10_L400
+[win 2/2 SCARA_Robot] RENAMED: Smooth_Rod_D10mm_L400mm  ->  COTS_LIN_Rod_D10_L400  (23:19:07)
+[win 2/2 SCARA_Robot] existing target moved aside temporarily: COTS_LIN_Rod_Clamp_D10
+[win 2/2 SCARA_Robot] SelectByID2 failed for 'Smooth_Rod_Clamp-8'
+[win 2/2 SCARA_Robot] SelectByID2 failed for 'Smooth_Rod_Clamp-8'
+[win 2/2 SCARA_Robot] SaveAs fallback OK: Smooth_Rod_Clamp -> COTS_LIN_Rod_Clamp_D10
+[win 2/2 SCARA_Robot] RENAMED: Smooth_Rod_Clamp  ->  COTS_LIN_Rod_Clamp_D10  (23:19:10)
+[win 2/2 SCARA_Robot] existing target moved aside temporarily: COTS_LIN_Lead_Screw_D8_L380
+[win 2/2 SCARA_Robot] SelectByID2 failed for 'Lead_Screw_D8mm_L380mm-1'
+[win 2/2 SCARA_Robot] SelectByID2 failed for 'Lead_Screw_D8mm_L380mm-1'
+[win 2/2 SCARA_Robot] SaveAs fallback OK: Lead_Screw_D8mm_L380mm -> COTS_LIN_Lead_Screw_D8_L380
+[win 2/2 SCARA_Robot] RENAMED: Lead_Screw_D8mm_L380mm  ->  COTS_LIN_Lead_Screw_D8_L380  (23:19:12)
+[win 2/2 SCARA_Robot] existing target moved aside temporarily: COTS_LIN_Lead_Screw_Nut_D8
+[win 2/2 SCARA_Robot] SelectByID2 failed for 'Lead_Screw_Nut_8mm-1'
+[win 2/2 SCARA_Robot] SelectByID2 failed for 'Lead_Screw_Nut_8mm-1'
+[win 2/2 SCARA_Robot] SaveAs fallback OK: Lead_Screw_Nut_8mm -> COTS_LIN_Lead_Screw_Nut_D8
+[win 2/2 SCARA_Robot] RENAMED: Lead_Screw_Nut_8mm  ->  COTS_LIN_Lead_Screw_Nut_D8  (23:19:15)
+[win 2/2 SCARA_Robot] existing target moved aside temporarily: COTS_BLT_GT2_L200
+[win 2/2 SCARA_Robot] SelectByID2 failed for 'GT2_Belt_200mm-1'
+[win 2/2 SCARA_Robot] SelectByID2 failed for 'GT2_Belt_200mm-1'
+[win 2/2 SCARA_Robot] SaveAs fallback OK: GT2_Belt_200mm -> COTS_BLT_GT2_L200
+[win 2/2 SCARA_Robot] RENAMED: GT2_Belt_200mm  ->  COTS_BLT_GT2_L200  (23:19:20)
+[win 2/2 SCARA_Robot] existing target moved aside temporarily: COTS_BLT_GT2_L300_A
+[win 2/2 SCARA_Robot] SelectByID2 failed for 'GT2_Belt_300mm-1'
+[win 2/2 SCARA_Robot] SelectByID2 failed for 'GT2_Belt_300mm-1'
+[win 2/2 SCARA_Robot] SaveAs fallback OK: GT2_Belt_300mm -> COTS_BLT_GT2_L300_A
+[win 2/2 SCARA_Robot] RENAMED: GT2_Belt_300mm  ->  COTS_BLT_GT2_L300_A  (23:19:35)
+[win 2/2 SCARA_Robot] existing target moved aside temporarily: COTS_BLT_GT2_L300_B
+[win 2/2 SCARA_Robot] SelectByID2 failed for 'GT2_Belt_300mm_2-1'
+[win 2/2 SCARA_Robot] SelectByID2 failed for 'GT2_Belt_300mm_2-1'
+[win 2/2 SCARA_Robot] SaveAs fallback OK: GT2_Belt_300mm_2 -> COTS_BLT_GT2_L300_B
+[win 2/2 SCARA_Robot] RENAMED: GT2_Belt_300mm_2  ->  COTS_BLT_GT2_L300_B  (23:19:39)
+[win 2/2 SCARA_Robot] existing target moved aside temporarily: COTS_BLT_GT2_L400_A
+[win 2/2 SCARA_Robot] SelectByID2 failed for 'GT2_Belt_400mm-1'
+[win 2/2 SCARA_Robot] SelectByID2 failed for 'GT2_Belt_400mm-1'
+[win 2/2 SCARA_Robot] SaveAs fallback OK: GT2_Belt_400mm -> COTS_BLT_GT2_L400_A
+[win 2/2 SCARA_Robot] RENAMED: GT2_Belt_400mm  ->  COTS_BLT_GT2_L400_A  (23:19:43)
+[win 2/2 SCARA_Robot] existing target moved aside temporarily: COTS_BLT_GT2_L400_B
+[win 2/2 SCARA_Robot] SelectByID2 failed for 'GT2_Belt_400mm_2-1'
+[win 2/2 SCARA_Robot] SelectByID2 failed for 'GT2_Belt_400mm_2-1'
+[win 2/2 SCARA_Robot] SaveAs fallback OK: GT2_Belt_400mm_2 -> COTS_BLT_GT2_L400_B
+[win 2/2 SCARA_Robot] RENAMED: GT2_Belt_400mm_2  ->  COTS_BLT_GT2_L400_B  (23:19:46)
+[win 2/2 SCARA_Robot] existing target moved aside temporarily: COTS_FST_Bolt_M4x50
+[win 2/2 SCARA_Robot] SelectByID2 failed for 'M4_50mm_Bolts-2'
+[win 2/2 SCARA_Robot] SelectByID2 failed for 'M4_50mm_Bolts-2'
+[win 2/2 SCARA_Robot] SaveAs fallback OK: M4_50mm_Bolts -> COTS_FST_Bolt_M4x50
+[win 2/2 SCARA_Robot] RENAMED: M4_50mm_Bolts  ->  COTS_FST_Bolt_M4x50  (23:19:50)
+[win 2/2 SCARA_Robot] existing target moved aside temporarily: COTS_FST_Bolt_M4x60
+[win 2/2 SCARA_Robot] SelectByID2 failed for 'M4_60mm_Bolts-1'
+[win 2/2 SCARA_Robot] SelectByID2 failed for 'M4_60mm_Bolts-1'
+[win 2/2 SCARA_Robot] SaveAs fallback OK: M4_60mm_Bolts -> COTS_FST_Bolt_M4x60
+[win 2/2 SCARA_Robot] RENAMED: M4_60mm_Bolts  ->  COTS_FST_Bolt_M4x60  (23:19:55)
+[win 2/2 SCARA_Robot] existing target moved aside temporarily: COTS_FST_Bolt_M8x45
+[win 2/2 SCARA_Robot] SelectByID2 failed for 'M8_45mm_Bolts-1'
+[win 2/2 SCARA_Robot] SelectByID2 fail==============================================================
+SCARA_Robot rename + material verify/set + properties (live run, one file at a time)
+Started: 2026-11-20 23:44:48
+Plan: 61 file renames, 61 config renames -> 'Default', 3 materials to assign, 56 materials verify-only.
+AUTO: saved open document before run: C:\Users\User\Desktop\SR\Base.SLDPRT
+AUTO: saved open document before run: C:\Users\User\Desktop\SR\Stepper_NEMA_17_20mm_shaft.SLDPRT
+AUTO: saved open document before run: C:\Users\User\Desktop\SR\Ball_Bearing_608_8_22_7mm.SLDPRT
+AUTO: saved open document before run: C:\Users\User\Desktop\SR\Thrust_Bearing_40_60_13.SLDPRT
+AUTO: saved open document before run: C:\Users\User\Desktop\SR\GT2_Pulley_110teeth_J1.SLDPRT
+AUTO: saved open document before run: C:\Users\User\Desktop\SR\GT2_Pulley_22_80teeth.SLDPRT
+AUTO: saved open document before run: C:\Users\User\Desktop\SR\GT2_Pulley_Parametric.SLDPRT
+AUTO: saved open document before run: C:\Users\User\Desktop\SR\M8_Washer.SLDPRT
+AUTO: saved open document before run: C:\Users\User\Desktop\SR\J1_coupler.SLDPRT
+AUTO: saved open document before run: C:\Users\User\Desktop\SR\Z_axis_Bottom_Plate.SLDPRT
+AUTO: saved open document before run: C:\Users\User\Desktop\SR\Smooth_Rod_D10mm_L400mm.SLDPRT
+AUTO: saved open document before run: C:\Users\User\Desktop\SR\Smooth_Rod_Clamp.SLDPRT
+AUTO: saved open document before run: C:\Users\User\Desktop\SR\Z_axis_Top_Plate.SLDPRT
+AUTO: saved open document before run: C:\Users\User\Desktop\SR\Lead_Screw_D8mm_L380mm.SLDPRT
+AUTO: saved open document before run: C:\Users\User\Desktop\SR\Z_axis_Mount_Platform.SLDPRT
+AUTO: saved open document before run: C:\Users\User\Desktop\SR\Arm_1.SLDPRT
+AUTO: saved open document before run: C:\Users\User\Desktop\SR\J2_Coupler.SLDPRT
+AUTO: saved open document before run: C:\Users\User\Desktop\SR\Thrust_Bearing_35x52x12mm.SLDPRT
+AUTO: saved open document before run: C:\Users\User\Desktop\SR\Ball_Bearing_30x42x7mm.SLDPRT
+AUTO: saved open document before run: C:\Users\User\Desktop\SR\GT2_Pulley_92teeth_J2.SLDPRT
+AUTO: saved open document before run: C:\Users\User\Desktop\SR\GT2_Pulley_23_80teeth.SLDPRT
+AUTO: saved open document before run: C:\Users\User\Desktop\SR\Linear_Bearing_10x19x29mm.SLDPRT
+AUTO: saved open document before run: C:\Users\User\Desktop\SR\Arm_2.SLDPRT
+AUTO: saved open document before run: C:\Users\User\Desktop\SR\Arm_2_Cover.SLDPRT
+AUTO: saved open document before run: C:\Users\User\Desktop\SR\Micro_switch.SLDPRT
+AUTO: saved open document before run: C:\Users\User\Desktop\SR\NEMA_17_Stepper_L24mm_20mm_shaft.SLDPRT
+AUTO: saved open document before run: C:\Users\User\Desktop\SR\J3_Coupler.SLDPRT
+AUTO: saved open document before run: C:\Users\User\Desktop\SR\GT2_Pulley_90teeth_J3.SLDPRT
+AUTO: saved open document before run: C:\Users\User\Desktop\SR\Lead_Screw_Nut_8mm.SLDPRT
+AUTO: saved open document before run: C:\Users\User\Desktop\SR\SR_50_002_Servo_Holder.SLDPRT
+AUTO: saved open document before run: C:\Users\User\Desktop\SR\COTS_SRV_MG996R.SLDPRT
+AUTO: saved open document before run: C:\Users\User\Desktop\SR\COTS_SRV_MG996R_Horn.SLDPRT
+AUTO: saved open document before run: C:\Users\User\Desktop\SR\SR_50_003_Gripper_Cover.SLDPRT
+AUTO: saved open document before run: C:\Users\User\Desktop\SR\SR_50_005_Gripper_Hand_Left.SLDPRT
+AUTO: saved open document before run: C:\Users\User\Desktop\SR\COTS_LIN_Rod_D6_L125.SLDPRT
+AUTO: saved open document before run: C:\Users\User\Desktop\SR\SR_50_009_Gripper_End.SLDPRT
+AUTO: saved open document before run: C:\Users\User\Desktop\SR\SR_50_006_Gripper_Hand_Right.SLDPRT
+AUTO: saved open document before run: C:\Users\User\Desktop\SR\SR_50_004_Gripper_Slider.SLDPRT
+AUTO: saved open document before run: C:\Users\User\Desktop\SR\SR_50_007_Gripper_Link_1.SLDPRT
+AUTO: saved open document before run: C:\Users\User\Desktop\SR\SR_50_008_Gripper_Link_2.SLDPRT
+AUTO: saved open document before run: C:\Users\User\Desktop\SR\SR_50_001_Gripper_To_J3_Connector.SLDPRT
+AUTO: saved open document before run: C:\Users\User\Desktop\SR\SR_50_010_Wide_Gripper_End.SLDPRT
+AUTO: saved open document before run: C:\Users\User\Desktop\SR\SR_50_011_Wide_Gripper_End_Left.SLDPRT
+AUTO: saved open document before run: C:\Users\User\Desktop\SR\Arm_1_Cover.SLDPRT
+AUTO: saved open document before run: C:\Users\User\Desktop\SR\Base_cover.SLDPRT
+AUTO: saved open document before run: C:\Users\User\Desktop\SR\Top_cover.SLDPRT
+AUTO: saved open document before run: C:\Users\User\Desktop\SR\Arduino UNO case p1.SLDPRT
+AUTO: saved open document before run: C:\Users\User\Desktop\SR\Arduino UNO case p2.SLDPRT
+AUTO: saved open document before run: C:\Users\User\Desktop\SR\GT2_Belt_200mm.SLDPRT
+AUTO: saved open document before run: C:\Users\User\Desktop\SR\GT2_Belt_300mm_2.SLDPRT
+AUTO: saved open document before run: C:\Users\User\Desktop\SR\GT2_Belt_400mm.SLDPRT
+AUTO: saved open document before run: C:\Users\User\Desktop\SR\GT2_Belt_300mm.SLDPRT
+AUTO: saved open document before run: C:\Users\User\Desktop\SR\GT2_Belt_400mm_2.SLDPRT
+AUTO: saved open document before run: C:\Users\User\Desktop\SR\Ball_Bearing_35x47x7mm.SLDPRT
+AUTO: saved open document before run: C:\Users\User\Desktop\SR\M8_45mm_Bolts.SLDPRT
+AUTO: saved open document before run: C:\Users\User\Desktop\SR\M8_Lock_nut.SLDPRT
+AUTO: saved open document before run: C:\Users\User\Desktop\SR\M4_Lock_nut.SLDPRT
+AUTO: saved open document before run: C:\Users\User\Desktop\SR\M4_60mm_Bolts.SLDPRT
+AUTO: saved open document before run: C:\Users\User\Desktop\SR\M4_50mm_Bolts.SLDPRT
+AUTO: saved open document before run: C:\Users\User\Desktop\SR\SCARA_Robot.SLDASM
+AUTO: 61 open document(s) saved and closed.
+Execution: 61 documents one-by-one (phase 1), 2 rename windows (phase 2), pause 500 ms, lightweight=False
+  REVIEW (inferred - verify): Arduino UNO case p1  ->  SR_60_001_Arduino_UNO_Case_P1
+  REVIEW (inferred - verify): Arduino UNO case p2  ->  SR_60_002_Arduino_UNO_Case_P2
+  REVIEW (inferred - verify): Micro_switch  ->  COTS_SW_Micro_Limit_Switch
+  REVIEW (inferred - verify): Ball_Bearing_35x47x7mm  ->  COTS_BRG_6807_35x47x7
+  REVIEW (inferred - verify): Smooth_Rod_D10mm_L400mm  ->  COTS_LIN_Rod_D10_L400
+  REVIEW (inferred - verify): Lead_Screw_D8mm_L380mm  ->  COTS_LIN_Lead_Screw_D8_L380
+--- Phase 1: open -> config rename -> material verify/set -> props -> save -> close ---
+[1/61] edit: C:\Users\User\Desktop\SR\Base.SLDPRT  (Part)  23:44:58
+CFG: already correct: 'Default' (Base)
+MAT KEEP (verified): Base [Default] = PLA+
+[1/61] saved: C:\Users\User\Desktop\SR\Base.SLDPRT
+[2/61] edit: C:\Users\User\Desktop\SR\J1_coupler.SLDPRT  (Part)  23:45:01
+CFG: already correct: 'Default' (J1_coupler)
+MAT KEEP (verified): J1_coupler [Default] = PLA+
+[2/61] saved: C:\Users\User\Desktop\SR\J1_coupler.SLDPRT
+[3/61] edit: C:\Users\User\Desktop\SR\Base_cover.SLDPRT  (Part)  23:45:04
+CFG: already correct: 'Default' (Base_cover)
+MAT KEEP (verified): Base_cover [Default] = PLA+
+[3/61] saved: C:\Users\User\Desktop\SR\Base_cover.SLDPRT
+[4/61] edit: C:\Users\User\Desktop\SR\GT2_Pulley_22_80teeth.SLDPRT  (Part)  23:45:06
+CFG: already correct: 'Default' (GT2_Pulley_22_80teeth)
+MAT KEEP (verified): GT2_Pulley_22_80teeth [Default] = PLA+
+[4/61] saved: C:\Users\User\Desktop\SR\GT2_Pulley_22_80teeth.SLDPRT
+[5/61] edit: C:\Users\User\Desktop\SR\GT2_Pulley_110teeth_J1.SLDPRT  (Part)  23:45:09
+CFG: already correct: 'Default' (GT2_Pulley_110teeth_J1)
+MAT KEEP (verified): GT2_Pulley_110teeth_J1 [Default] = PLA+
+[5/61] saved: C:\Users\User\Desktop\SR\GT2_Pulley_110teeth_J1.SLDPRT
+[6/61] edit: C:\Users\User\Desktop\SR\Z_axis_Bottom_Plate.SLDPRT  (Part)  23:45:12
+CFG: already correct: 'Default' (Z_axis_Bottom_Plate)
+MAT KEEP (verified): Z_axis_Bottom_Plate [Default] = PLA+
+[6/61] saved: C:\Users\User\Desktop\SR\Z_axis_Bottom_Plate.SLDPRT
+[7/61] edit: C:\Users\User\Desktop\SR\Z_axis_Top_Plate.SLDPRT  (Part)  23:45:15
+CFG: already correct: 'Default' (Z_axis_Top_Plate)
+MAT KEEP (verified): Z_axis_Top_Plate [Default] = PLA+
+[7/61] saved: C:\Users\User\Desktop\SR\Z_axis_Top_Plate.SLDPRT
+[8/61] edit: C:\Users\User\Desktop\SR\Z_axis_Mount_Platform.SLDPRT  (Part)  23:45:17
+CFG: already correct: 'Default' (Z_axis_Mount_Platform)
+MAT KEEP (verified): Z_axis_Mount_Platform [Default] = PLA+
+[8/61] saved: C:\Users\User\Desktop\SR\Z_axis_Mount_Platform.SLDPRT
+[9/61] edit: C:\Users\User\Desktop\SR\Top_cover.SLDPRT  (Part)  23:45:20
+CFG: already correct: 'Default' (Top_cover)
+MAT KEEP (verified): Top_cover [Default] = PLA+
+[9/61] saved: C:\Users\User\Desktop\SR\Top_cover.SLDPRT
+[10/61] edit: C:\Users\User\Desktop\SR\Arm_1.SLDPRT  (Part)  23:45:22
+CFG: already correct: 'Default' (Arm_1)
+MAT KEEP (verified): Arm_1 [Default] = PLA+
+[10/61] saved: C:\Users\User\Desktop\SR\Arm_1.SLDPRT
+[11/61] edit: C:\Users\User\Desktop\SR\Arm_1_Cover.SLDPRT  (Part)  23:45:25
+CFG: already correct: 'Default' (Arm_1_Cover)
+MAT KEEP (verified): Arm_1_Cover [Default] = PLA+
+[11/61] saved: C:\Users\User\Desktop\SR\Arm_1_Cover.SLDPRT
+[12/61] edit: C:\Users\User\Desktop\SR\J2_Coupler.SLDPRT  (Part)  23:45:28
+CFG: already correct: 'Default' (J2_Coupler)
+MAT KEEP (verified): J2_Coupler [Default] = PLA+
+[12/61] saved: C:\Users\User\Desktop\SR\J2_Coupler.SLDPRT
+[13/61] edit: C:\Users\User\Desktop\SR\GT2_Pulley_23_80teeth.SLDPRT  (Part)  23:45:31
+CFG: already correct: 'Default' (GT2_Pulley_23_80teeth)
+MAT KEEP (verified): GT2_Pulley_23_80teeth [Default] = PLA+
+[13/61] saved: C:\Users\User\Desktop\SR\GT2_Pulley_23_80teeth.SLDPRT
+[14/61] edit: C:\Users\User\Desktop\SR\GT2_Pulley_92teeth_J2.SLDPRT  (Part)  23:45:34
+CFG: already correct: 'Default' (GT2_Pulley_92teeth_J2)
+MAT KEEP (verified): GT2_Pulley_92teeth_J2 [Default] = PLA+
+[14/61] saved: C:\Users\User\Desktop\SR\GT2_Pulley_92teeth_J2.SLDPRT
+[15/61] edit: C:\Users\User\Desktop\SR\Arm_2.SLDPRT  (Part)  23:45:37
+CFG: already correct: 'Default' (Arm_2)
+MAT KEEP (verified): Arm_2 [Default] = PLA+
+[15/61] saved: C:\Users\User\Desktop\SR\Arm_2.SLDPRT
+[16/61] edit: C:\Users\User\Desktop\SR\Arm_2_Cover.SLDPRT  (Part)  23:45:39
+CFG: already correct: 'Default' (Arm_2_Cover)
+MAT KEEP (verified): Arm_2_Cover [Default] = PLA+
+[16/61] saved: C:\Users\User\Desktop\SR\Arm_2_Cover.SLDPRT
+[17/61] edit: C:\Users\User\Desktop\SR\J3_Coupler.SLDPRT  (Part)  23:45:42
+CFG: already correct: 'Default' (J3_Coupler)
+MAT KEEP (verified): J3_Coupler [Default] = PLA+
+[17/61] saved: C:\Users\User\Desktop\SR\J3_Coupler.SLDPRT
+[18/61] edit: C:\Users\User\Desktop\SR\GT2_Pulley_90teeth_J3.SLDPRT  (Part)  23:45:45
+CFG: already correct: 'Default' (GT2_Pulley_90teeth_J3)
+MAT KEEP (verified): GT2_Pulley_90teeth_J3 [Default] = PLA+
+[18/61] saved: C:\Users\User\Desktop\SR\GT2_Pulley_90teeth_J3.SLDPRT
+[19/61] edit: C:\Users\User\Desktop\SR\Arduino UNO case p1.SLDPRT  (Part)  23:45:48
+CFG: already correct: 'Default' (Arduino UNO case p1)
+WARNING: MAT: Arduino UNO case p1 expected 'PLA+', read back ''
+[19/61] saved: C:\Users\User\Desktop\SR\Arduino UNO case p1.SLDPRT
+[20/61] edit: C:\Users\User\Desktop\SR\Arduino UNO case p2.SLDPRT  (Part)  23:45:50
+CFG: already correct: 'Default' (Arduino UNO case p2)
+WARNING: MAT: Arduino UNO case p2 expected 'PLA+', read back ''
+[20/61] saved: C:\Users\User\Desktop\SR\Arduino UNO case p2.SLDPRT
+[21/61] edit: C:\Users\User\Desktop\SR\GT2_Pulley_Parametric.SLDPRT  (Part)  23:45:53
+CFG: already correct: 'Default' (GT2_Pulley_Parametric)
+MAT KEEP (verified): GT2_Pulley_Parametric [Default] = Alloy Steel
+[21/61] saved: C:\Users\User\Desktop\SR\GT2_Pulley_Parametric.SLDPRT
+[22/61] edit: C:\Users\User\Desktop\SR\Stepper_NEMA_17_20mm_shaft.SLDPRT  (Part)  23:45:56
+CFG: already correct: 'Default' (Stepper_NEMA_17_20mm_shaft)
+MAT SET: Stepper_NEMA_17_20mm_shaft [Default] '' -> Alloy Steel  (lib: SOLIDWORKS Materials)
+[22/61] saved: C:\Users\User\Desktop\SR\Stepper_NEMA_17_20mm_shaft.SLDPRT
+[23/61] edit: C:\Users\User\Desktop\SR\NEMA_17_Stepper_L24mm_20mm_shaft.SLDPRT  (Part)  23:45:59
+CFG: already correct: 'Default' (NEMA_17_Stepper_L24mm_20mm_shaft)
+MAT SET: NEMA_17_Stepper_L24mm_20mm_shaft [Default] '' -> Alloy Steel  (lib: SOLIDWORKS Materials)
+[23/61] saved: C:\Users\User\Desktop\SR\NEMA_17_Stepper_L24mm_20mm_shaft.SLDPRT
+[24/61] edit: C:\Users\User\Desktop\SR\Micro_switch.SLDPRT  (Part)  23:46:01
+CFG: already correct: 'Default' (Micro_switch)
+MAT KEEP (verified): Micro_switch [Default] = Alloy Steel
+[24/61] saved: C:\Users\User\Desktop\SR\Micro_switch.SLDPRT
+[25/61] edit: C:\Users\User\Desktop\SR\Ball_Bearing_608_8_22_7mm.SLDPRT  (Part)  23:46:04
+CFG: already correct: 'Default' (Ball_Bearing_608_8_22_7mm)
+MAT KEEP (verified): Ball_Bearing_608_8_22_7mm [Default] = Alloy Steel
+[25/61] saved: C:\Users\User\Desktop\SR\Ball_Bearing_608_8_22_7mm.SLDPRT
+[26/61] edit: C:\Users\User\Desktop\SR\Ball_Bearing_30x42x7mm.SLDPRT  (Part)  23:46:07
+CFG: already correct: 'Default' (Ball_Bearing_30x42x7mm)
+MAT KEEP (verified): Ball_Bearing_30x42x7mm [Default] = Alloy Steel
+[26/61] saved: C:\Users\User\Desktop\SR\Ball_Bearing_30x42x7mm.SLDPRT
+[27/61] edit: C:\Users\User\Desktop\SR\Ball_Bearing_35x47x7mm.SLDPRT  (Part)  23:46:09
+CFG: already correct: 'Default' (Ball_Bearing_35x47x7mm)
+MAT KEEP (verified): Ball_Bearing_35x47x7mm [Default] = Alloy Steel
+[27/61] saved: C:\Users\User\Desktop\SR\Ball_Bearing_35x47x7mm.SLDPRT
+[28/61] edit: C:\Users\User\Desktop\SR\Thrust_Bearing_40_60_13.SLDPRT  (Part)  23:46:12
+CFG: already correct: 'Default' (Thrust_Bearing_40_60_13)
+MAT KEEP (verified): Thrust_Bearing_40_60_13 [Default] = Alloy Steel
+[28/61] saved: C:\Users\User\Desktop\SR\Thrust_Bearing_40_60_13.SLDPRT
+[29/61] edit: C:\Users\User\Desktop\SR\Thrust_Bearing_35x52x12mm.SLDPRT  (Part)  23:46:15
+CFG: already correct: 'Default' (Thrust_Bearing_35x52x12mm)
+MAT KEEP (verified): Thrust_Bearing_35x52x12mm [Default] = Alloy Steel
+[29/61] saved: C:\Users\User\Desktop\SR\Thrust_Bearing_35x52x12mm.SLDPRT
+[30/61] edit: C:\Users\User\Desktop\SR\Linear_Bearing_10x19x29mm.SLDPRT  (Part)  23:46:17
+CFG: already correct: 'Default' (Linear_Bearing_10x19x29mm)
+MAT KEEP (verified): Linear_Bearing_10x19x29mm [Default] = Alloy Steel
+[30/61] saved: C:\Users\User\Desktop\SR\Linear_Bearing_10x19x29mm.SLDPRT
+[31/61] edit: C:\Users\User\Desktop\SR\Smooth_Rod_D10mm_L400mm.SLDPRT  (Part)  23:46:20
+CFG: already correct: 'Default' (Smooth_Rod_D10mm_L400mm)
+MAT KEEP (verified): Smooth_Rod_D10mm_L400mm [Default] = Alloy Steel
+[31/61] saved: C:\Users\User\Desktop\SR\Smooth_Rod_D10mm_L400mm.SLDPRT
+[32/61] edit: C:\Users\User\Desktop\SR\Smooth_Rod_Clamp.SLDPRT  (Part)  23:46:22
+CFG: already correct: 'Default' (Smooth_Rod_Clamp)
+MAT KEEP (verified): Smooth_Rod_Clamp [Default] = Alloy Steel
+[32/61] saved: C:\Users\User\Desktop\SR\Smooth_Rod_Clamp.SLDPRT
+[33/61] edit: C:\Users\User\Desktop\SR\Lead_Screw_D8mm_L380mm.SLDPRT  (Part)  23:46:25
+CFG: already correct: 'Default' (Lead_Screw_D8mm_L380mm)
+MAT KEEP (verified): Lead_Screw_D8mm_L380mm [Default] = Alloy Steel
+[33/61] saved: C:\Users\User\Desktop\SR\Lead_Screw_D8mm_L380mm.SLDPRT
+[34/61] edit: C:\Users\User\Desktop\SR\Lead_Screw_Nut_8mm.SLDPRT  (Part)  23:46:27
+CFG: already correct: 'Default' (Lead_Screw_Nut_8mm)
+MAT KEEP (verified): Lead_Screw_Nut_8mm [Default] = Alloy Steel
+[34/61] saved: C:\Users\User\Desktop\SR\Lead_Screw_Nut_8mm.SLDPRT
+[35/61] edit: C:\Users\User\Desktop\SR\GT2_Belt_200mm.SLDPRT  (Part)  23:46:30
+CFG: already correct: 'Default' (GT2_Belt_200mm)
+MAT KEEP (verified): GT2_Belt_200mm [Default] = BUTYL
+[35/61] saved: C:\Users\User\Desktop\SR\GT2_Belt_200mm.SLDPRT
+[36/61] edit: C:\Users\User\Desktop\SR\GT2_Belt_300mm.SLDPRT  (Part)  23:46:33
+CFG: already correct: 'Default' (GT2_Belt_300mm)
+MAT KEEP (verified): GT2_Belt_300mm [Default] = BUTYL
+[36/61] saved: C:\Users\User\Desktop\SR\GT2_Belt_300mm.SLDPRT
+[37/61] edit: C:\Users\User\Desktop\SR\GT2_Belt_300mm_2.SLDPRT  (Part)  23:46:35
+CFG: already correct: 'Default' (GT2_Belt_300mm_2)
+MAT KEEP (verified): GT2_Belt_300mm_2 [Default] = BUTYL
+[37/61] saved: C:\Users\User\Desktop\SR\GT2_Belt_300mm_2.SLDPRT
+[38/61] edit: C:\Users\User\Desktop\SR\GT2_Belt_400mm.SLDPRT  (Part)  23:46:38
+CFG: already correct: 'Default' (GT2_Belt_400mm)
+MAT KEEP (verified): GT2_Belt_400mm [Default] = BUTYL
+[38/61] saved: C:\Users\User\Desktop\SR\GT2_Belt_400mm.SLDPRT
+[39/61] edit: C:\Users\User\Desktop\SR\GT2_Belt_400mm_2.SLDPRT  (Part)  23:46:40
+CFG: already correct: 'Default' (GT2_Belt_400mm_2)
+MAT KEEP (verified): GT2_Belt_400mm_2 [Default] = BUTYL
+[39/61] saved: C:\Users\User\Desktop\SR\GT2_Belt_400mm_2.SLDPRT
+[40/61] edit: C:\Users\User\Desktop\SR\M4_50mm_Bolts.SLDPRT  (Part)  23:46:43
+CFG: already correct: 'Default' (M4_50mm_Bolts)
+MAT KEEP (verified): M4_50mm_Bolts [Default] = Ductile Iron
+[40/61] saved: C:\Users\User\Desktop\SR\M4_50mm_Bolts.SLDPRT
+[41/61] edit: C:\Users\User\Desktop\SR\M4_60mm_Bolts.SLDPRT  (Part)  23:46:46
+CFG: already correct: 'Default' (M4_60mm_Bolts)
+MAT KEEP (verified): M4_60mm_Bolts [Default] = Ductile Iron
+[41/61] saved: C:\Users\User\Desktop\SR\M4_60mm_Bolts.SLDPRT
+[42/61] edit: C:\Users\User\Desktop\SR\M8_45mm_Bolts.SLDPRT  (Part)  23:46:49
+CFG: already correct: 'Default' (M8_45mm_Bolts)
+MAT KEEP (verified): M8_45mm_Bolts [Default] = Ductile Iron
+[42/61] saved: C:\Users\User\Desktop\SR\M8_45mm_Bolts.SLDPRT
+[43/61] edit: C:\Users\User\Desktop\SR\M4_Lock_nut.SLDPRT  (Part)  23:46:51
+CFG: already correct: 'Default' (M4_Lock_nut)
+MAT KEEP (verified): M4_Lock_nut [Default] = Ductile Iron
+[43/61] saved: C:\Users\User\Desktop\SR\M4_Lock_nut.SLDPRT
+[44/61] edit: C:\Users\User\Desktop\SR\M8_Lock_nut.SLDPRT  (Part)  23:46:54
+CFG: already correct: 'Default' (M8_Lock_nut)
+MAT KEEP (verified): M8_Lock_nut [Default] = Ductile Iron
+[44/61] saved: C:\Users\User\Desktop\SR\M8_Lock_nut.SLDPRT
+[45/61] edit: C:\Users\User\Desktop\SR\M8_Washer.SLDPRT  (Part)  23:46:57
+CFG: already correct: 'Default' (M8_Washer)
+MAT KEEP (verified): M8_Washer [Default] = Alloy Steel
+[45/61] saved: C:\Users\User\Desktop\SR\M8_Washer.SLDPRT
+[46/61] edit: C:\Users\User\Desktop\SR\Gripper_to_J3_connector.SLDPRT  (Part)  23:46:59
+CFG: already correct: 'Default' (Gripper_to_J3_connector)
+MAT KEEP (verified): Gripper_to_J3_connector [Default] = PLA+
+[46/61] saved: C:\Users\User\Desktop\SR\Gripper_to_J3_connector.SLDPRT
+[47/61] edit: C:\Users\User\Desktop\SR\Servo_Holder.SLDPRT  (Part)  23:47:01
+CFG: already correct: 'Default' (Servo_Holder)
+MAT KEEP (verified): Servo_Holder [Default] = PLA+
+[47/61] saved: C:\Users\User\Desktop\SR\Servo_Holder.SLDPRT
+[48/61] edit: C:\Users\User\Desktop\SR\Gripper_Cover.SLDPRT  (Part)  23:47:04
+CFG: already correct: 'Default' (Gripper_Cover)
+MAT KEEP (verified): Gripper_Cover [Default] = PLA+
+[48/61] saved: C:\Users\User\Desktop\SR\Gripper_Cover.SLDPRT
+[49/61] edit: C:\Users\User\Desktop\SR\Gripper_Mechanism_Slider.SLDPRT  (Part)  23:47:06
+CFG: already correct: 'Default' (Gripper_Mechanism_Slider)
+MAT KEEP (verified): Gripper_Mechanism_Slider [Default] = PLA+
+[49/61] saved: C:\Users\User\Desktop\SR\Gripper_Mechanism_Slider.SLDPRT
+[50/61] edit: C:\Users\User\Desktop\SR\Gripper_Hand_Left.SLDPRT  (Part)  23:47:09
+CFG: already correct: 'Default' (Gripper_Hand_Left)
+MAT KEEP (verified): Gripper_Hand_Left [Default] = PLA+
+[50/61] saved: C:\Users\User\Desktop\SR\Gripper_Hand_Left.SLDPRT
+[51/61] edit: C:\Users\User\Desktop\SR\Gripper_Hand_Right.SLDPRT  (Part)  23:47:11
+CFG: already correct: 'Default' (Gripper_Hand_Right)
+MAT KEEP (verified): Gripper_Hand_Right [Default] = PLA+
+[51/61] saved: C:\Users\User\Desktop\SR\Gripper_Hand_Right.SLDPRT
+[52/61] edit: C:\Users\User\Desktop\SR\Gripper_link1.SLDPRT  (Part)  23:47:13
+CFG: already correct: 'Default' (Gripper_link1)
+MAT KEEP (verified): Gripper_link1 [Default] = PLA+
+[52/61] saved: C:\Users\User\Desktop\SR\Gripper_link1.SLDPRT
+[53/61] edit: C:\Users\User\Desktop\SR\Gripper_link2.SLDPRT  (Part)  23:47:16
+CFG: already correct: 'Default' (Gripper_link2)
+MAT KEEP (verified): Gripper_link2 [Default] = PLA+
+[53/61] saved: C:\Users\User\Desktop\SR\Gripper_link2.SLDPRT
+[54/61] edit: C:\Users\User\Desktop\SR\Gripper_End.SLDPRT  (Part)  23:47:18
+CFG: already correct: 'Default' (Gripper_End)
+MAT KEEP (verified): Gripper_End [Default] = PLA+
+[54/61] saved: C:\Users\User\Desktop\SR\Gripper_End.SLDPRT
+[55/61] edit: C:\Users\User\Desktop\SR\Wide_gripper_end.SLDPRT  (Part)  23:47:21
+CFG: already correct: 'Default' (Wide_gripper_end)
+MAT KEEP (verified): Wide_gripper_end [Default] = PLA+
+[55/61] saved: C:\Users\User\Desktop\SR\Wide_gripper_end.SLDPRT
+[56/61] edit: C:\Users\User\Desktop\SR\Wide_gripper_end_Left_side.SLDPRT  (Part)  23:47:23
+CFG: already correct: 'Default' (Wide_gripper_end_Left_side)
+MAT KEEP (verified): Wide_gripper_end_Left_side [Default] = PLA+
+[56/61] saved: C:\Users\User\Desktop\SR\Wide_gripper_end_Left_side.SLDPRT
+[57/61] edit: C:\Users\User\Desktop\SR\Gripper_rail_6mm.SLDPRT  (Part)  23:47:25
+CFG: already correct: 'Default' (Gripper_rail_6mm)
+MAT KEEP (verified): Gripper_rail_6mm [Default] = Alloy Steel
+[57/61] saved: C:\Users\User\Desktop\SR\Gripper_rail_6mm.SLDPRT
+[58/61] edit: C:\Users\User\Desktop\SR\Servo_Motor_MG996R_3D_Model.SLDPRT  (Part)  23:47:27
+CFG: already correct: 'Default' (Servo_Motor_MG996R_3D_Model)
+MAT KEEP (verified): Servo_Motor_MG996R_3D_Model [Default] = ABS
+[58/61] saved: C:\Users\User\Desktop\SR\Servo_Motor_MG996R_3D_Model.SLDPRT
+[59/61] edit: C:\Users\User\Desktop\SR\Servo_MG996R_Horn.SLDPRT  (Part)  23:47:30
+CFG: already correct: 'Default' (Servo_MG996R_Horn)
+MAT KEEP (verified): Servo_MG996R_Horn [Default] = ABS
+[59/61] saved: C:\Users\User\Desktop\SR\Servo_MG996R_Horn.SLDPRT
+[60/61] edit: C:\Users\User\Desktop\SR\Gripper_Mechanism.SLDASM  (Assembly)  23:47:34
+CFG: already correct: 'Default' (Gripper_Mechanism)
+[60/61] saved: C:\Users\User\Desktop\SR\Gripper_Mechanism.SLDASM
+[61/61] edit: C:\Users\User\Desktop\SR\SCARA_Robot.SLDASM  (Assembly)  23:47:44
+CFG: already correct: 'Default' (SCARA_Robot)
+[61/61] saved: C:\Users\User\Desktop\SR\SCARA_Robot.SLDASM
+Phase 1 done: docs=61/61, cfg renames=0 (skipped 0), materials verified(kept)=55, set=2 (fail 2), props=364
+--- Phase 2: per-assembly rename windows (deepest first) ---
+[win 1/2 Gripper_Mechanism] window open (23:47:50): C:\Users\User\Desktop\SR\Gripper_Mechanism.SLDASM
+[win 1/2 Gripper_Mechanism] child already renamed: SR_50_001_Gripper_To_J3_Connector
+[win 1/2 Gripper_Mechanism] child already renamed: SR_50_002_Servo_Holder
+[win 1/2 Gripper_Mechanism] child already renamed: SR_50_003_Gripper_Cover
+[win 1/2 Gripper_Mechanism] child already renamed: SR_50_004_Gripper_Slider
+[win 1/2 Gripper_Mechanism] child already renamed: SR_50_005_Gripper_Hand_Left
+[win 1/2 Gripper_Mechanism] child already renamed: SR_50_006_Gripper_Hand_Right
+[win 1/2 Gripper_Mechanism] child already renamed: SR_50_007_Gripper_Link_1
+[win 1/2 Gripper_Mechanism] child already renamed: SR_50_008_Gripper_Link_2
+[win 1/2 Gripper_Mechanism] child already renamed: SR_50_009_Gripper_End
+[win 1/2 Gripper_Mechanism] child already renamed: SR_50_010_Wide_Gripper_End
+[win 1/2 Gripper_Mechanism] child already renamed: SR_50_011_Wide_Gripper_End_Left
+[win 1/2 Gripper_Mechanism] child already renamed: COTS_LIN_Rod_D6_L125
+[win 1/2 Gripper_Mechanism] child already renamed: COTS_SRV_MG996R
+[win 1/2 Gripper_Mechanism] child already renamed: COTS_SRV_MG996R_Horn
+[win 1/2 Gripper_Mechanism] nothing to change in this window
+[win 2/2 SCARA_Robot] window open (23:47:56): C:\Users\User\Desktop\SR\SCARA_Robot.SLDASM
+[win 2/2 SCARA_Robot] existing target moved aside temporarily: SR_10_001_Base
+[win 2/2 SCARA_Robot] SelectByID2 failed for 'Base-1'
+[win 2/2 SCARA_Robot] SelectByID2 failed for 'Base-1'
+[win 2/2 SCARA_Robot] SaveAs fallback OK: Base -> SR_10_001_Base
+[win 2/2 SCARA_Robot] RENAMED: Base  ->  SR_10_001_Base  (23:47:57)
+[win 2/2 SCARA_Robot] existing target moved aside temporarily: SR_10_002_J1_Coupler
+[win 2/2 SCARA_Robot] SelectByID2 failed for 'J1_coupler-1'
+[win 2/2 SCARA_Robot] SelectByID2 failed for 'J1_coupler-1'
+[win 2/2 SCARA_Robot] SaveAs fallback OK: J1_coupler -> SR_10_002_J1_Coupler
+[win 2/2 SCARA_Robot] RENAMED: J1_coupler  ->  SR_10_002_J1_Coupler  (23:47:58)
+[win 2/2 SCARA_Robot] existing target moved aside temporarily: SR_10_003_Base_Cover
+[win 2/2 SCARA_Robot] SelectByID2 failed for 'Base_cover-1'
+[win 2/2 SCARA_Robot] SelectByID2 failed for 'Base_cover-1'
+[win 2/2 SCARA_Robot] SaveAs fallback OK: Base_cover -> SR_10_003_Base_Cover
+[win 2/2 SCARA_Robot] RENAMED: Base_cover  ->  SR_10_003_Base_Cover  (23:47:58)
+[win 2/2 SCARA_Robot] existing target moved aside temporarily: SR_10_004_GT2_J1_Idler_Pulley_80T
+[win 2/2 SCARA_Robot] SelectByID2 failed for 'GT2_Pulley_22_80teeth-2'
+[win 2/2 SCARA_Robot] SelectByID2 failed for 'GT2_Pulley_22_80teeth-2'
+[win 2/2 SCARA_Robot] SaveAs fallback OK: GT2_Pulley_22_80teeth -> SR_10_004_GT2_J1_Idler_Pulley_80T
+[win 2/2 SCARA_Robot] RENAMED: GT2_Pulley_22_80teeth  ->  SR_10_004_GT2_J1_Idler_Pulley_80T  (23:47:59)
+[win 2/2 SCARA_Robot] existing target moved aside temporarily: SR_10_005_GT2_J1_Driven_Pulley_110T
+[win 2/2 SCARA_Robot] SelectByID2 failed for 'GT2_Pulley_110teeth_J1-2'
+[win 2/2 SCARA_Robot] SelectByID2 failed for 'GT2_Pulley_110teeth_J1-2'
+[win 2/2 SCARA_Robot] SaveAs fallback OK: GT2_Pulley_110teeth_J1 -> SR_10_005_GT2_J1_Driven_Pulley_110T
+[win 2/2 SCARA_Robot] RENAMED: GT2_Pulley_110teeth_J1  ->  SR_10_005_GT2_J1_Driven_Pulley_110T  (23:48:00)
+[win 2/2 SCARA_Robot] existing target moved aside temporarily: SR_20_001_Z_Bottom_Plate
+[win 2/2 SCARA_Robot] SelectByID2 failed for 'Z_axis_Bottom_Plate-2'
+[win 2/2 SCARA_Robot] SelectByID2 failed for 'Z_axis_Bottom_Plate-2'
+[win 2/2 SCARA_Robot] SaveAs fallback OK: Z_axis_Bottom_Plate -> SR_20_001_Z_Bottom_Plate
+[win 2/2 SCARA_Robot] RENAMED: Z_axis_Bottom_Plate  ->  SR_20_001_Z_Bottom_Plate  (23:48:00)
+[win 2/2 SCARA_Robot] existing target moved aside temporarily: SR_20_002_Z_Top_Plate
+[win 2/2 SCARA_Robot] SelectByID2 failed for 'Z_axis_Top_Plate-1'
+[win 2/2 SCARA_Robot] SelectByID2 failed for 'Z_axis_Top_Plate-1'
+[win 2/2 SCARA_Robot] SaveAs fallback OK: Z_axis_Top_Plate -> SR_20_002_Z_Top_Plate
+[win 2/2 SCARA_Robot] RENAMED: Z_axis_Top_Plate  ->  SR_20_002_Z_Top_Plate  (23:48:01)
+[win 2/2 SCARA_Robot] existing target moved aside temporarily: SR_20_003_Z_Mount_Platform
+[win 2/2 SCARA_Robot] SelectByID2 failed for 'Z_axis_Mount_Platform-1'
+[win 2/2 SCARA_Robot] SelectByID2 failed for 'Z_axis_Mount_Platform-1'
+[win 2/2 SCARA_Robot] SaveAs fallback OK: Z_axis_Mount_Platform -> SR_20_003_Z_Mount_Platform
+[win 2/2 SCARA_Robot] RENAMED: Z_axis_Mount_Platform  ->  SR_20_003_Z_Mount_Platform  (23:48:01)
+[win 2/2 SCARA_Robot] existing target moved aside temporarily: SR_20_004_Z_Top_Cover
+[win 2/2 SCARA_Robot] SelectByID2 failed for 'Top_cover-1'
+[win 2/2 SCARA_Robot] SelectByID2 failed for 'Top_cover-1'
+[win 2/2 SCARA_Robot] SaveAs fallback OK: Top_cover -> SR_20_004_Z_Top_Cover
+[win 2/2 SCARA_Robot] RENAMED: Top_cover  ->  SR_20_004_Z_Top_Cover  (23:48:02)
+[win 2/2 SCARA_Robot] existing target moved aside temporarily: SR_30_001_Arm_1
+[win 2/2 SCARA_Robot] SelectByID2 failed for 'Arm_1-1'
+[win 2/2 SCARA_Robot] SelectByID2 failed for 'Arm_1-1'
+[win 2/2 SCARA_Robot] SaveAs fallback OK: Arm_1 -> SR_30_001_Arm_1
+[win 2/2 SCARA_Robot] RENAMED: Arm_1  ->  SR_30_001_Arm_1  (23:48:03)
+[win 2/2 SCARA_Robot] existing target moved aside temporarily: SR_30_002_Arm_1_Cover
+[win 2/2 SCARA_Robot] SelectByID2 failed for 'Arm_1_Cover-1'
+[win 2/2 SCARA_Robot] SelectByID2 failed for 'Arm_1_Cover-1'
+[win 2/2 SCARA_Robot] SaveAs fallback OK: Arm_1_Cover -> SR_30_002_Arm_1_Cover
+[win 2/2 SCARA_Robot] RENAMED: Arm_1_Cover  ->  SR_30_002_Arm_1_Cover  (23:48:03)
+[win 2/2 SCARA_Robot] existing target moved aside temporarily: SR_30_003_J2_Coupler
+[win 2/2 SCARA_Robot] SelectByID2 failed for 'J2_Coupler-1'
+[win 2/2 SCARA_Robot] SelectByID2 failed for 'J2_Coupler-1'
+[win 2/2 SCARA_Robot] SaveAs fallback OK: J2_Coupler -> SR_30_003_J2_Coupler
+[win 2/2 SCARA_Robot] RENAMED: J2_Coupler  ->  SR_30_003_J2_Coupler  (23:48:04)
+[win 2/2 SCARA_Robot] existing target moved aside temporarily: SR_30_004_GT2_J2_Idler_Pulley_80T
+[win 2/2 SCARA_Robot] SelectByID2 failed for 'GT2_Pulley_23_80teeth-1'
+[win 2/2 SCARA_Robot] SelectByID2 failed for 'GT2_Pulley_23_80teeth-1'
+[win 2/2 SCARA_Robot] SaveAs fallback OK: GT2_Pulley_23_80teeth -> SR_30_004_GT2_J2_Idler_Pulley_80T
+[win 2/2 SCARA_Robot] RENAMED: GT2_Pulley_23_80teeth  ->  SR_30_004_GT2_J2_Idler_Pulley_80T  (23:48:05)
+[win 2/2 SCARA_Robot] existing target moved aside temporarily: SR_30_005_GT2_J2_Driven_Pulley_92T
+[win 2/2 SCARA_Robot] SelectByID2 failed for 'GT2_Pulley_92teeth_J2-1'
+[win 2/2 SCARA_Robot] SelectByID2 failed for 'GT2_Pulley_92teeth_J2-1'
+[win 2/2 SCARA_Robot] SaveAs fallback OK: GT2_Pulley_92teeth_J2 -> SR_30_005_GT2_J2_Driven_Pulley_92T
+[win 2/2 SCARA_Robot] RENAMED: GT2_Pulley_92teeth_J2  ->  SR_30_005_GT2_J2_Driven_Pulley_92T  (23:48:05)
+[win 2/2 SCARA_Robot] existing target moved aside temporarily: SR_40_001_Arm_2
+[win 2/2 SCARA_Robot] SelectByID2 failed for 'Arm_2-1'
+[win 2/2 SCARA_Robot] SelectByID2 failed for 'Arm_2-1'
+[win 2/2 SCARA_Robot] SaveAs fallback OK: Arm_2 -> SR_40_001_Arm_2
+[win 2/2 SCARA_Robot] RENAMED: Arm_2  ->  SR_40_001_Arm_2  (23:48:06)
+[win 2/2 SCARA_Robot] existing target moved aside temporarily: SR_40_002_Arm_2_Cover
+[win 2/2 SCARA_Robot] SelectByID2 failed for 'Arm_2_Cover-1'
+[win 2/2 SCARA_Robot] SelectByID2 failed for 'Arm_2_Cover-1'
+[win 2/2 SCARA_Robot] SaveAs fallback OK: Arm_2_Cover -> SR_40_002_Arm_2_Cover
+[win 2/2 SCARA_Robot] RENAMED: Arm_2_Cover  ->  SR_40_002_Arm_2_Cover  (23:48:07)
+[win 2/2 SCARA_Robot] existing target moved aside temporarily: SR_40_003_J3_Coupler
+[win 2/2 SCARA_Robot] SelectByID2 failed for 'J3_Coupler-1'
+[win 2/2 SCARA_Robot] SelectByID2 failed for 'J3_Coupler-1'
+[win 2/2 SCARA_Robot] SaveAs fallback OK: J3_Coupler -> SR_40_003_J3_Coupler
+[win 2/2 SCARA_Robot] RENAMED: J3_Coupler  ->  SR_40_003_J3_Coupler  (23:48:07)
+[win 2/2 SCARA_Robot] existing target moved aside temporarily: SR_40_004_GT2_J3_Driven_Pulley_90T
+[win 2/2 SCARA_Robot] SelectByID2 failed for 'GT2_Pulley_90teeth_J3-1'
+[win 2/2 SCARA_Robot] SelectByID2 failed for 'GT2_Pulley_90teeth_J3-1'
+[win 2/2 SCARA_Robot] SaveAs fallback OK: GT2_Pulley_90teeth_J3 -> SR_40_004_GT2_J3_Driven_Pulley_90T
+[win 2/2 SCARA_Robot] RENAMED: GT2_Pulley_90teeth_J3  ->  SR_40_004_GT2_J3_Driven_Pulley_90T  (23:48:08)
+[win 2/2 SCARA_Robot] existing target moved aside temporarily: SR_60_001_Arduino_UNO_Case_P1
+[win 2/2 SCARA_Robot] SelectByID2 failed for 'Arduino UNO case p1-1'
+[win 2/2 SCARA_Robot] SelectByID2 failed for 'Arduino UNO case p1-1'
+[win 2/2 SCARA_Robot] SaveAs fallback OK: Arduino UNO case p1 -> SR_60_001_Arduino_UNO_Case_P1
+[win 2/2 SCARA_Robot] RENAMED: Arduino UNO case p1  ->  SR_60_001_Arduino_UNO_Case_P1  (23:48:09)
+[win 2/2 SCARA_Robot] existing target moved aside temporarily: SR_60_002_Arduino_UNO_Case_P2
+[win 2/2 SCARA_Robot] SelectByID2 failed for 'Arduino UNO case p2-1'
+[win 2/2 SCARA_Robot] SelectByID2 failed for 'Arduino UNO case p2-1'
+[win 2/2 SCARA_Robot] SaveAs fallback OK: Arduino UNO case p2 -> SR_60_002_Arduino_UNO_Case_P2
+[win 2/2 SCARA_Robot] RENAMED: Arduino UNO case p2  ->  SR_60_002_Arduino_UNO_Case_P2  (23:48:09)
+[win 2/2 SCARA_Robot] existing target moved aside temporarily: COTS_PUL_GT2_Metal_Drive_Pulley
+[win 2/2 SCARA_Robot] SelectByID2 failed for 'GT2_Pulley_Parametric-2'
+[win 2/2 SCARA_Robot] SelectByID2 failed for 'GT2_Pulley_Parametric-2'
+[win 2/2 SCARA_Robot] SaveAs fallback OK: GT2_Pulley_Parametric -> COTS_PUL_GT2_Metal_Drive_Pulley
+[win 2/2 SCARA_Robot] RENAMED: GT2_Pulley_Parametric  ->  COTS_PUL_GT2_Metal_Drive_Pulley  (23:48:10)
+[win 2/2 SCARA_Robot] existing target moved aside temporarily: COTS_MOT_NEMA17_20mm_Shaft
+[win 2/2 SCARA_Robot] SelectByID2 failed for 'Stepper_NEMA_17_20mm_shaft-2'
+[win 2/2 SCARA_Robot] SelectByID2 failed for 'Stepper_NEMA_17_20mm_shaft-2'
+[win 2/2 SCARA_Robot] SaveAs fallback OK: Stepper_NEMA_17_20mm_shaft -> COTS_MOT_NEMA17_20mm_Shaft
+[win 2/2 SCARA_Robot] RENAMED: Stepper_NEMA_17_20mm_shaft  ->  COTS_MOT_NEMA17_20mm_Shaft  (23:48:11)
+[win 2/2 SCARA_Robot] existing target moved aside temporarily: COTS_MOT_NEMA17_L24_20mm_Shaft
+[win 2/2 SCARA_Robot] SelectByID2 failed for 'NEMA_17_Stepper_L24mm_20mm_shaft-1'
+[win 2/2 SCARA_Robot] SelectByID2 failed for 'NEMA_17_Stepper_L24mm_20mm_shaft-1'
+[win 2/2 SCARA_Robot] SaveAs fallback OK: NEMA_17_Stepper_L24mm_20mm_shaft -> COTS_MOT_NEMA17_L24_20mm_Shaft
+[win 2/2 SCARA_Robot] RENAMED: NEMA_17_Stepper_L24mm_20mm_shaft  ->  COTS_MOT_NEMA17_L24_20mm_Shaft  (23:48:11)
+[win 2/2 SCARA_Robot] existing target moved aside temporarily: COTS_SW_Micro_Limit_Switch
+[win 2/2 SCARA_Robot] SelectByID2 failed for 'Micro_switch-3'
+[win 2/2 SCARA_Robot] SelectByID2 failed for 'Micro_switch-3'
+[win 2/2 SCARA_Robot] SaveAs fallback OK: Micro_switch -> COTS_SW_Micro_Limit_Switch
+[win 2/2 SCARA_Robot] RENAMED: Micro_switch  ->  COTS_SW_Micro_Limit_Switch  (23:48:12)
+[win 2/2 SCARA_Robot] existing target moved aside temporarily: COTS_BRG_608_8x22x7
+[win 2/2 SCARA_Robot] SelectByID2 failed for 'Ball_Bearing_608_8_22_7mm-5'
+[win 2/2 SCARA_Robot] SelectByID2 failed for 'Ball_Bearing_608_8_22_7mm-5'
+[win 2/2 SCARA_Robot] SaveAs fallback OK: Ball_Bearing_608_8_22_7mm -> COTS_BRG_608_8x22x7
+[win 2/2 SCARA_Robot] RENAMED: Ball_Bearing_608_8_22_7mm  ->  COTS_BRG_608_8x22x7  (23:48:13)
+[win 2/2 SCARA_Robot] existing target moved aside temporarily: COTS_BRG_6806_30x42x7
+[win 2/2 SCARA_Robot] SelectByID2 failed for 'Ball_Bearing_30x42x7mm-1'
+[win 2/2 SCARA_Robot] SelectByID2 failed for 'Ball_Bearing_30x42x7mm-1'
+[win 2/2 SCARA_Robot] SaveAs fallback OK: Ball_Bearing_30x42x7mm -> COTS_BRG_6806_30x42x7
+[win 2/2 SCARA_Robot] RENAMED: Ball_Bearing_30x42x7mm  ->  COTS_BRG_6806_30x42x7  (23:48:13)
+[win 2/2 SCARA_Robot] existing target moved aside temporarily: COTS_BRG_6807_35x47x7
+[win 2/2 SCARA_Robot] SelectByID2 failed for 'Ball_Bearing_35x47x7mm-1'
+[win 2/2 SCARA_Robot] SelectByID2 failed for 'Ball_Bearing_35x47x7mm-1'
+[win 2/2 SCARA_Robot] SaveAs fallback OK: Ball_Bearing_35x47x7mm -> COTS_BRG_6807_35x47x7
+[win 2/2 SCARA_Robot] RENAMED: Ball_Bearing_35x47x7mm  ->  COTS_BRG_6807_35x47x7  (23:48:14)
+[win 2/2 SCARA_Robot] existing target moved aside temporarily: COTS_BRG_51108_40x60x13
+[win 2/2 SCARA_Robot] SelectByID2 failed for 'Thrust_Bearing_40_60_13-3'
+[win 2/2 SCARA_Robot] SelectByID2 failed for 'Thrust_Bearing_40_60_13-3'
+[win 2/2 SCARA_Robot] SaveAs fallback OK: Thrust_Bearing_40_60_13 -> COTS_BRG_51108_40x60x13
+[win 2/2 SCARA_Robot] RENAMED: Thrust_Bearing_40_60_13  ->  COTS_BRG_51108_40x60x13  (23:48:15)
+[win 2/2 SCARA_Robot] existing target moved aside temporarily: COTS_BRG_51107_35x52x12
+[win 2/2 SCARA_Robot] SelectByID2 failed for 'Thrust_Bearing_35x52x12mm-2'
+[win 2/2 SCARA_Robot] SelectByID2 failed for 'Thrust_Bearing_35x52x12mm-2'
+[win 2/2 SCARA_Robot] SaveAs fallback OK: Thrust_Bearing_35x52x12mm -> COTS_BRG_51107_35x52x12
+[win 2/2 SCARA_Robot] RENAMED: Thrust_Bearing_35x52x12mm  ->  COTS_BRG_51107_35x52x12  (23:48:15)
+[win 2/2 SCARA_Robot] existing target moved aside temporarily: COTS_LIN_LM10UU_10x19x29
+[win 2/2 SCARA_Robot] SelectByID2 failed for 'Linear_Bearing_10x19x29mm-6'
+[win 2/2 SCARA_Robot] SelectByID2 failed for 'Linear_Bearing_10x19x29mm-6'
+[win 2/2 SCARA_Robot] SaveAs fallback OK: Linear_Bearing_10x19x29mm -> COTS_LIN_LM10UU_10x19x29
+[win 2/2 SCARA_Robot] RENAMED: Linear_Bearing_10x19x29mm  ->  COTS_LIN_LM10UU_10x19x29  (23:48:16)
+[win 2/2 SCARA_Robot] existing target moved aside temporarily: COTS_LIN_Rod_D10_L400
+[win 2/2 SCARA_Robot] SelectByID2 failed for 'Smooth_Rod_D10mm_L400mm-3'
+[win 2/2 SCARA_Robot] SelectByID2 failed for 'Smooth_Rod_D10mm_L400mm-3'
+[win 2/2 SCARA_Robot] SaveAs fallback OK: Smooth_Rod_D10mm_L400mm -> COTS_LIN_Rod_D10_L400
+[win 2/2 SCARA_Robot] RENAMED: Smooth_Rod_D10mm_L400mm  ->  COTS_LIN_Rod_D10_L400  (23:48:17)
+[win 2/2 SCARA_Robot] existing target moved aside temporarily: COTS_LIN_Rod_Clamp_D10
+[win 2/2 SCARA_Robot] SelectByID2 failed for 'Smooth_Rod_Clamp-1'
+[win 2/2 SCARA_Robot] SelectByID2 failed for 'Smooth_Rod_Clamp-1'
+[win 2/2 SCARA_Robot] SaveAs fallback OK: Smooth_Rod_Clamp -> COTS_LIN_Rod_Clamp_D10
+[win 2/2 SCARA_Robot] RENAMED: Smooth_Rod_Clamp  ->  COTS_LIN_Rod_Clamp_D10  (23:48:18)
+[win 2/2 SCARA_Robot] existing target moved aside temporarily: COTS_LIN_Lead_Screw_D8_L380
+[win 2/2 SCARA_Robot] SelectByID2 failed for 'Lead_Screw_D8mm_L380mm-1'
+[win 2/2 SCARA_Robot] SelectByID2 failed for 'Lead_Screw_D8mm_L380mm-1'
+[win 2/2 SCARA_Robot] SaveAs fallback OK: Lead_Screw_D8mm_L380mm -> COTS_LIN_Lead_Screw_D8_L380
+[win 2/2 SCARA_Robot] RENAMED: Lead_Screw_D8mm_L380mm  ->  COTS_LIN_Lead_Screw_D8_L380  (23:48:18)
+[win 2/2 SCARA_Robot] existing target moved aside temporarily: COTS_LIN_Lead_Screw_Nut_D8
+[win 2/2 SCARA_Robot] SelectByID2 failed for 'Lead_Screw_Nut_8mm-1'
+[win 2/2 SCARA_Robot] SelectByID2 failed for 'Lead_Screw_Nut_8mm-1'
+[win 2/2 SCARA_Robot] SaveAs fallback OK: Lead_Screw_Nut_8mm -> COTS_LIN_Lead_Screw_Nut_D8
+[win 2/2 SCARA_Robot] RENAMED: Lead_Screw_Nut_8mm  ->  COTS_LIN_Lead_Screw_Nut_D8  (23:48:19)
+[win 2/2 SCARA_Robot] existing target moved aside temporarily: COTS_BLT_GT2_L200
+[win 2/2 SCARA_Robot] SelectByID2 failed for 'GT2_Belt_200mm-1'
+[win 2/2 SCARA_Robot] SelectByID2 failed for 'GT2_Belt_200mm-1'
+[win 2/2 SCARA_Robot] SaveAs fallback OK: GT2_Belt_200mm -> COTS_BLT_GT2_L200
+[win 2/2 SCARA_Robot] RENAMED: GT2_Belt_200mm  ->  COTS_BLT_GT2_L200  (23:48:20)
+[win 2/2 SCARA_Robot] existing target moved aside temporarily: COTS_BLT_GT2_L300_A
+[win 2/2 SCARA_Robot] SelectByID2 failed for 'GT2_Belt_300mm-1'
+[win 2/2 SCARA_Robot] SelectByID2 failed for 'GT2_Belt_300mm-1'
+[win 2/2 SCARA_Robot] SaveAs fallback OK: GT2_Belt_300mm -> COTS_BLT_GT2_L300_A
+[win 2/2 SCARA_Robot] RENAMED: GT2_Belt_300mm  ->  COTS_BLT_GT2_L300_A  (23:48:20)
+[win 2/2 SCARA_Robot] existing target moved aside temporarily: COTS_BLT_GT2_L300_B
+[win 2/2 SCARA_Robot] SelectByID2 failed for 'GT2_Belt_300mm_2-1'
+[win 2/2 SCARA_Robot] SelectByID2 failed for 'GT2_Belt_300mm_2-1'
+[win 2/2 SCARA_Robot] SaveAs fallback OK: GT2_Belt_300mm_2 -> COTS_BLT_GT2_L300_B
+[win 2/2 SCARA_Robot] RENAMED: GT2_Belt_300mm_2  ->  COTS_BLT_GT2_L300_B  (23:48:21)
+[win 2/2 SCARA_Robot] existing target moved aside temporarily: COTS_BLT_GT2_L400_A
+[win 2/2 SCARA_Robot] SelectByID2 failed for 'GT2_Belt_400mm-1'
+[win 2/2 SCARA_Robot] SelectByID2 failed for 'GT2_Belt_400mm-1'
+[win 2/2 SCARA_Robot] SaveAs fallback OK: GT2_Belt_400mm -> COTS_BLT_GT2_L400_A
+[win 2/2 SCARA_Robot] RENAMED: GT2_Belt_400mm  ->  COTS_BLT_GT2_L400_A  (23:48:22)
+[win 2/2 SCARA_Robot] existing target moved aside temporarily: COTS_BLT_GT2_L400_B
+[win 2/2 SCARA_Robot] SelectByID2 failed for 'GT2_Belt_400mm_2-1'
+[win 2/2 SCARA_Robot] SelectByID2 failed for 'GT2_Belt_400mm_2-1'
+[win 2/2 SCARA_Robot] SaveAs fallback OK: GT2_Belt_400mm_2 -> COTS_BLT_GT2_L400_B
+[win 2/2 SCARA_Robot] RENAMED: GT2_Belt_400mm_2  ->  COTS_BLT_GT2_L400_B  (23:48:22)
+[win 2/2 SCARA_Robot] existing target moved aside temporarily: COTS_FST_Bolt_M4x50
+[win 2/2 SCARA_Robot] SelectByID2 failed for 'M4_50mm_Bolts-1'
+[win 2/2 SCARA_Robot] SelectByID2 failed for 'M4_50mm_Bolts-1'
+[win 2/2 SCARA_Robot] SaveAs fallback OK: M4_50mm_Bolts -> COTS_FST_Bolt_M4x50
+[win 2/2 SCARA_Robot] RENAMED: M4_50mm_Bolts  ->  COTS_FST_Bolt_M4x50  (23:48:23)
+[win 2/2 SCARA_Robot] existing target moved aside temporarily: COTS_FST_Bolt_M4x60
+[win 2/2 SCARA_Robot] SelectByID2 failed for 'M4_60mm_Bolts-4'
+[win 2/2 SCARA_Robot] SelectByID2 failed for 'M4_60mm_Bolts-4'
+[win 2/2 SCARA_Robot] SaveAs fallback OK: M4_60mm_Bolts -> COTS_FST_Bolt_M4x60
+[win 2/2 SCARA_Robot] RENAMED: M4_60mm_Bolts  ->  COTS_FST_Bolt_M4x60  (23:48:23)
+[win 2/2 SCARA_Robot] existing target moved aside temporarily: COTS_FST_Bolt_M8x45
+[win 2/2 SCARA_Robot] SelectByID2 failed for 'M8_45mm_Bolts-1'
+[win 2/2 SCARA_Robot] SelectByID2 failed for 'M8_45mm_Bolts-1'
+[win 2/2 SCARA_Robot] SaveAs fallback OK: M8_45mm_Bolts -> COTS_FST_Bolt_M8x45
+[win 2/2 SCARA_Robot] RENAMED: M8_45mm_Bolts  ->  COTS_FST_Bolt_M8x45  (23:48:24)
+[win 2/2 SCARA_Robot] SelectByID2 failed for 'M4_Lock_nut-1'
+[win 2/2 SCARA_Robot] SelectByID2 failed for 'M4_Lock_nut-1'
+[win 2/2 SCARA_Robot] SaveAs fallback OK: M4_Lock_nut -> COTS_FST_Lock_Nut_M4
+[win 2/2 SCARA_Robot] RENAMED: M4_Lock_nut  ->  COTS_FST_Lock_Nut_M4  (23:48:25)
+[win 2/2 SCARA_Robot] SelectByID2 failed for 'M8_Lock_nut-1'
+[win 2/2 SCARA_Robot] SelectByID2 failed for 'M8_Lock_nut-1'
+[win 2/2 SCARA_Robot] SaveAs fallback OK: M8_Lock_nut -> COTS_FST_Lock_Nut_M8
+[win 2/2 SCARA_Robot] RENAMED: M8_Lock_nut  ->  COTS_FST_Lock_Nut_M8  (23:48:25)
+[win 2/2 SCARA_Robot] SelectByID2 failed for 'M8_Washer-3'
+[win 2/2 SCARA_Robot] SelectByID2 failed for 'M8_Washer-3'
+[win 2/2 SCARA_Robot] SaveAs fallback OK: M8_Washer -> COTS_FST_Washer_M8
+[win 2/2 SCARA_Robot] RENAMED: M8_Washer  ->  COTS_FST_Washer_M8  (23:48:26)
+[win 2/2 SCARA_Robot] SelectByID2 failed for 'Gripper_Mechanism-1'
+[win 2/2 SCARA_Robot] SelectByID2 failed for 'Gripper_Mechanism-1'
+[win 2/2 SCARA_Robot] SaveAs fallback OK: Gripper_Mechanism -> SR_50000_Gripper_Mechanism_Assy
+[win 2/2 SCARA_Robot] RENAMED: Gripper_Mechanism  ->  SR_50000_Gripper_Mechanism_Assy  (23:48:26)
+[win 2/2 SCARA_Robot] window saved (renames committed): C:\Users\User\Desktop\SR\SCARA_Robot.SLDASM
+--- Phase 2b: cleanup of leftover old-name files ---
+CLEAN: removed leftover old file: Base
+CLEAN: removed leftover old file: J1_coupler
+CLEAN: removed leftover old file: Base_cover
+CLEAN: removed leftover old file: GT2_Pulley_22_80teeth
+CLEAN: removed leftover old file: GT2_Pulley_110teeth_J1
+CLEAN: removed leftover old file: Z_axis_Bottom_Plate
+CLEAN: removed leftover old file: Z_axis_Top_Plate
+CLEAN: removed leftover old file: Z_axis_Mount_Platform
+CLEAN: removed leftover old file: Top_cover
+CLEAN: removed leftover old file: Arm_1
+CLEAN: removed leftover old file: Arm_1_Cover
+CLEAN: removed leftover old file: J2_Coupler
+CLEAN: removed leftover old file: GT2_Pulley_23_80teeth
+CLEAN: removed leftover old file: GT2_Pulley_92teeth_J2
+CLEAN: removed leftover old file: Arm_2
+CLEAN: removed leftover old file: Arm_2_Cover
+CLEAN: removed leftover old file: J3_Coupler
+CLEAN: removed leftover old file: GT2_Pulley_90teeth_J3
+CLEAN: removed leftover old file: Arduino UNO case p1
+CLEAN: removed leftover old file: Arduino UNO case p2
+CLEAN: removed leftover old file: GT2_Pulley_Parametric
+CLEAN: removed leftover old file: Stepper_NEMA_17_20mm_shaft
+CLEAN: removed leftover old file: NEMA_17_Stepper_L24mm_20mm_shaft
+CLEAN: removed leftover old file: Micro_switch
+CLEAN: removed leftover old file: Ball_Bearing_608_8_22_7mm
+CLEAN: removed leftover old file: Ball_Bearing_30x42x7mm
+CLEAN: removed leftover old file: Ball_Bearing_35x47x7mm
+CLEAN: removed leftover old file: Thrust_Bearing_40_60_13
+CLEAN: removed leftover old file: Thrust_Bearing_35x52x12mm
+CLEAN: removed leftover old file: Linear_Bearing_10x19x29mm
+CLEAN: removed leftover old file: Smooth_Rod_D10mm_L400mm
+CLEAN: removed leftover old file: Smooth_Rod_Clamp
+CLEAN: removed leftover old file: Lead_Screw_D8mm_L380mm
+CLEAN: removed leftover old file: Lead_Screw_Nut_8mm
+CLEAN: removed leftover old file: GT2_Belt_200mm
+CLEAN: removed leftover old file: GT2_Belt_300mm
+CLEAN: removed leftover old file: GT2_Belt_300mm_2
+CLEAN: removed leftover old file: GT2_Belt_400mm
+CLEAN: removed leftover old file: GT2_Belt_400mm_2
+CLEAN: removed leftover old file: M4_50mm_Bolts
+CLEAN: removed leftover old file: M4_60mm_Bolts
+CLEAN: removed leftover old file: M8_45mm_Bolts
+CLEAN: removed leftover old file: M4_Lock_nut
+CLEAN: removed leftover old file: M8_Lock_nut
+CLEAN: removed leftover old file: M8_Washer
+CLEAN: removed leftover old file: Gripper_to_J3_connector
+CLEAN: removed leftover old file: Servo_Holder
+CLEAN: removed leftover old file: Gripper_Cover
+CLEAN: removed leftover old file: Gripper_Mechanism_Slider
+CLEAN: removed leftover old file: Gripper_Hand_Left
+CLEAN: removed leftover old file: Gripper_Hand_Right
+CLEAN: removed leftover old file: Gripper_link1
+CLEAN: removed leftover old file: Gripper_link2
+CLEAN: removed leftover old file: Gripper_End
+CLEAN: removed leftover old file: Wide_gripper_end
+CLEAN: removed leftover old file: Wide_gripper_end_Left_side
+CLEAN: removed leftover old file: Gripper_rail_6mm
+CLEAN: removed leftover old file: Servo_Motor_MG996R_3D_Model
+CLEAN: removed leftover old file: Servo_MG996R_Horn
+CLEAN: removed leftover old file: Gripper_Mechanism
+Phase 2 done: windows=2/2, renamed=46 (failed 0), refs repaired=0
+--- Phase 2c: rename the top assembly file itself ---
+TOP RENAMED: C:\Users\User\Desktop\SR\SCARA_Robot.SLDASM  ->  C:\Users\User\Desktop\SR\SR_00000_SCARA_Robot_Assy.SLDASM
+--- Phase 3: verification + CSV report ---
+VERIFY: renamed files present on disk: 61 / 61
+VERIFY: instances scanned=133 (expected 112), mismatches=0
+WARNING: instance count differs from audit (112)
+CSV report written: C:\Users\User\Desktop\SR\_SCARA_Component_Report.csv (133 instances)
+=================== SUMMARY (SCARA edition) ===================
+Documents processed (phase 1) : 61 / 61
+Configuration renames applied : 0 (skipped: 0)
+Materials verified (kept)     : 55  (expected 56)
+Materials assigned            : 2 (failed: 2, expected 3)
+Custom properties set         : 364
+Refs repaired (phase 2)       : 0
+Rename windows processed      : 2 / 2
+Files renamed                 : 46 (failed: 0)
+Leftover old files deleted    : 60 (kept for review: 0)
+Verify instances / mismatches : 133 / 0
+Warnings                      : 3
+NEW top assembly              : C:\Users\User\Desktop\SR\SR_00000_SCARA_Robot_Assy.SLDASM
+Log                           : C:\Users\User\Desktop\SR\_SW_Rename_SCARA_Log.txt
+>>> Not perfect: RUN THE MACRO AGAIN - it resumes and retries only what is missing.
+Finished: 2026-11-20 23:48:45
